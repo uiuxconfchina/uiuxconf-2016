@@ -1,0 +1,24 @@
+#footer {
+  display: inline-block;
+  background: #0000B8;
+  text-align: center;
+  width: 100%;
+  .wrapper {
+    margin: $space*2 auto;
+    a.hashtag {
+      color: #fff;
+    }
+    .copyright {
+    	margin-top: $space;
+      span,
+      span a {
+        color: rgba(255, 255, 255, 0.5)
+      }
+      a {
+      	@include font-size($smaller);
+        color: #fff;
+        margin: 0 $space/2;
+      }
+    }
+  }
+}
