@@ -1,7 +1,7 @@
 # Site settings
 title: "UIUX Conf China"
 baseurl: ""
-url: "http://test.uiuxconf.com"
+url: "http://beta.uiuxconf.com"
 exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'bower_components', 'assets/scss']
 languages:          ['en', 'cn']
 language_default:   'en'

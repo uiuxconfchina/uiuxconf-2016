@@ -4,6 +4,6 @@
 *~
 .DS_Store
 _site/
-assets/css
+dist/css
 node_modules/
 *.css.map

@@ -8,7 +8,7 @@ var gulp = require('gulp'),
   assets = {
     'js': [
     ],
-    'css': ["assets/scss/**/*.{scss,sass}"]
+    'css': ["dist/scss/**/*.{scss,sass}"]
   };
 
 // Prepares the JS file
@@ -17,7 +17,7 @@ gulp.task('js', function() {
   gulp.src(assets.js)
     .pipe(concat('scripts.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('assets'));
+    .pipe(gulp.dest('dist'));
 });
 
 // Prepares the CSS file
@@ -26,7 +26,7 @@ gulp.task('css', function() {
     .pipe(sass({ includePaths: require('node-bourbon').includePaths }))
     .pipe(concat('main.css'))
     .pipe(minify({ keepBreaks: true }))
-    .pipe(gulp.dest('./_site/assets/css'));
+    .pipe(gulp.dest('./_site/dist/css'));
 });
 
 // Prepares JS & CSS assets
