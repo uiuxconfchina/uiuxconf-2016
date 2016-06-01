@@ -7,11 +7,11 @@
     {% if page.language == 'cn' %}
     <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='{{ site.url }}{{ site.baseurl }}/cn/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
     <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='{{ site.url }}{{ site.baseurl }}/cn/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    <a href='{{ site.url }}{{ site.baseurl }}#about'>{{ site.data.i18n[page.language].about }}</a>
+    <a href='{{ site.url }}{{ site.baseurl }}#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
     <a href='http://meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>{{ site.data.i18n[page.language].past_events }}</a> {% else %}
     <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='{{ site.url }}{{ site.baseurl }}/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
     <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='{{ site.url }}{{ site.baseurl }}/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    <a href='{{ site.url }}{{ site.baseurl }}#about'>{{ site.data.i18n[page.language].about }}</a>
+    <a href='{{ site.url }}{{ site.baseurl }}#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
     <a href='http://meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>{{ site.data.i18n[page.language].past_events }}</a> {% endif %}
   </div>
   <button class='close'>&times;</button>

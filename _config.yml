@@ -2,7 +2,7 @@
 title: "UIUX Conf China"
 baseurl: ""
 url: "http://beta.uiuxconf.com"
-exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'bower_components', 'assets/scss']
+exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'dist/scss', 'dist/js']
 languages:          ['en', 'cn']
 language_default:   'en'
 # Plugins

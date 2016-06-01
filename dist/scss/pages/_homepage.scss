@@ -146,12 +146,13 @@
               display: table-cell;
               vertical-align: middle;
               img {
+                @include filter(grayscale(100%));
                 @include transition(all 0.1s ease-in-out);
                 -webkit-backface-visibility: hidden;
                 @include transform-style(preserve-3d);
                 opacity: 0.4;
                 margin: 0px;
-                width: 50%;
+                width: auto;
               }
               @include breakpoint(mobile) {
                 height: $space*5;

@@ -3,10 +3,11 @@ var gulp = require('gulp'),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   minify = require('gulp-minify-css'),
-  borwserSync = require('browser-sync').create(),
-  reload = borwserSync.reload,
+ // borwserSync = require('browser-sync').create(),
+ // reload = borwserSync.reload,
   assets = {
     'js': [
+        "dist/js/*.js"
     ],
     'css': ["dist/scss/**/*.{scss,sass}"]
   };
@@ -26,21 +27,21 @@ gulp.task('css', function() {
     .pipe(sass({ includePaths: require('node-bourbon').includePaths }))
     .pipe(concat('main.css'))
     .pipe(minify({ keepBreaks: true }))
-    .pipe(gulp.dest('./_site/dist/css'));
+    .pipe(gulp.dest('dist'));
 });
 
 // Prepares JS & CSS assets
-gulp.task('default', ['css', 'js', 'watch']);
+gulp.task('default', ['css', 'js']);
 
 // reload browser
 
-gulp.task('watch', function() {
-  borwserSync.init({
-    server: {
-      baseDir: './_site/'
-    }
-  });
-  gulp.watch(assets.css, ['css']).on('change', reload);
-  gulp.watch("_includes/*.html").on('change', reload);
-  gulp.watch("./*").on('change', reload);
-});
+// gulp.task('watch', function() {
+//   borwserSync.init({
+//     server: {
+//       baseDir: './_site/'
+//     }
+//   });
+//   gulp.watch(assets.css, ['css']).on('change', reload);
+//   gulp.watch("_includes/*.html").on('change', reload);
+//   gulp.watch("./*").on('change', reload);
+// });

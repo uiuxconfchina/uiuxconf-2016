@@ -46,7 +46,7 @@ h3 {
 
 h1 {
   @include breakpoint(mobile) {
-    @include font-size($huge + 4);
+    @include font-size($huge + 2);
   }
 }
 
