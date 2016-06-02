@@ -1,4 +1,7 @@
 .content {
+  .wrapper:first-child {
+    margin-top: $space*2;
+  }
   h2 {
     margin-top: $space*3.5;
   }
@@ -10,7 +13,8 @@
       margin: $space*3.5 auto;
     }
   }
-  ul.perks,ul.options {
+  ul.perks,
+  ul.options {
     display: inline-block;
     list-style: none;
     width: 100%;
@@ -40,9 +44,14 @@
         }
       }
       span {
+        padding-left: $space;
+        font-family: $headline;
         display: table-cell;
         vertical-align: middle;
         width: 100%;
+        @include breakpoint(mobile) {
+          padding-left: $space/2;
+        }
       }
     }
   }
@@ -56,7 +65,8 @@
         display: block;
         float: none;
       }
-      span{
+      span {
+        padding-left: 0;
         display: block;
       }
       margin-right: 0;
@@ -66,5 +76,4 @@
       }
     }
   }
-
 }

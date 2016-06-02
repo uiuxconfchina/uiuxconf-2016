@@ -38,9 +38,9 @@ form.subscription {
     }
   }
   @include breakpoint(desktop) {
-    width: $space*21;
+    width: $space*21.5;
     input {
-      width: $space*15;
+      width: $space*15.5;
     }
     button {
       width: $space*6;

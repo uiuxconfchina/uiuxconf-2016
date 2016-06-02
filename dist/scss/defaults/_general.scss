@@ -111,3 +111,28 @@ blockquote {
     width: 100%;
   }
 }
+
+button.close {
+  position: absolute;
+  top: $space/2;
+  right: $space/2;
+  padding: 0;
+  font-family: arial;
+  @include font-size($huge);
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  border: 0;
+  height: $space*2;
+  line-height: $space*2;
+  width: $space*2;
+  &:before {
+    @include icon;
+    content: 'x';
+  }
+  &:hover {
+    &:before {
+      opacity: 0.8;
+    }
+  }
+}

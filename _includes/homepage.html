@@ -3,27 +3,31 @@
     <div class='masthead'>
       <h1>{{ site.data.i18n[page.language].big_title }}</h1>
       <time>2016.10.15 - 10.16 @ {{ site.data.i18n[page.language].shanghai }}</time>
-      <button class='button primary'>{{ site.data.i18n[page.language].get_tickets }}</button>
-      <img src='{{ site.url }}{{ site.baseurl }}/dist/images/masthead.png' class='img'>
+      <button class='button primary cta'>{{ site.data.i18n[page.language].get_tickets }}</button>
+      <img src='/dist/images/masthead.png' class='img'>
     </div>
   </div>
 </section>
 <section id='call-for-proposal'>
   <div class='wrapper'>
     <div id='call-for-speakers'>
-      <img src='{{ site.url }}{{ site.baseurl }}/dist/images/call-for-speakers.png'>
+      <img src='/dist/images/call-for-speakers.png'>
       <div class='col'>
         <h2>{{ site.data.i18n[page.language].call_for_speakers_and_workshops }}</h2>
         <p>{{ site.data.i18n[page.language].call_for_speakers_p }}</p>
-        <button class='button secondary'>{{ site.data.i18n[page.language].join }}</button>
+        {% if page.language == 'cn' %}
+        <a href='/cn/call-for-speakers/' class='button secondary'>{{ site.data.i18n[page.language].join }}</a>{% else %}
+        <a href='/call-for-speakers/' class='button secondary'>{{ site.data.i18n[page.language].join }}</a>{% endif %}
       </div>
     </div>
     <div id='call-for-sponsors'>
-      <img src='{{ site.url }}{{ site.baseurl }}/dist/images/call-for-sponsors.png'>
+      <img src='/dist/images/call-for-sponsors.png?v'>
       <div class='col'>
         <h2>{{ site.data.i18n[page.language].call_for_sponsors }}</h2>
         <p>{{ site.data.i18n[page.language].call_for_sponsors_p }}</p>
-        <button class='button secondary'>{{ site.data.i18n[page.language].sponsor }}</button>
+        {% if page.language == 'cn' %}
+        <a href='/cn/call-for-sponsors/' class='button secondary'>{{ site.data.i18n[page.language].sponsor }}</a>{% else %}
+        <a href='/call-for-sponsors/' class='button secondary'>{{ site.data.i18n[page.language].sponsor }}</a>{% endif %}
       </div>
     </div>
   </div>
@@ -34,29 +38,29 @@
     <p>{{ site.data.i18n[page.language].about_the_conf_p }}</p>
     <ul class='photos' id='past-events'>
       <li>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-1.jpg" /></a>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-2.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-1.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-2.jpg" /></a>
       </li>
       <li>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-3.jpg" /></a>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-4.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-3.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-4.jpg" /></a>
       </li>
       <li>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-5.jpg" /></a>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-6.jpg" /></a>
-        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="{{ site.url }}{{ site.baseurl }}/dist/images/about/meetup-7.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-5.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-6.jpg" /></a>
+        <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-7.jpg" /></a>
       </li>
     </ul>
     <div class='list'>
       <h3>{{ site.data.i18n[page.language].what_we_did }}</h3>
       <ul>
-        <li><img src='{{ site.url }}{{ site.baseurl }}/dist/images/shape-1.png'>
+        <li><img src='/dist/images/shape-1.png'>
           <br/><em>10</em>
           <br/><span>{{ site.data.i18n[page.language].meetups }}</span></li>
-        <li><img src='{{ site.url }}{{ site.baseurl }}/dist/images/shape-2.png'>
+        <li><img src='/dist/images/shape-2.png'>
           <br/><em>1374</em>
           <br/><span>{{ site.data.i18n[page.language].attendees }}</span></li>
-        <li><img src='{{ site.url }}{{ site.baseurl }}/dist/images/shape-3.png'>
+        <li><img src='/dist/images/shape-3.png'>
           <br/><em>23</em>
           <br/><span>{{ site.data.i18n[page.language].speakers }}</span></li>
       </ul>
@@ -65,31 +69,36 @@
       <h3>{{ site.data.i18n[page.language].past_sponsors }}</h3>
       <ul>
         <li>
-          <a href='https://shanghai.imagination.com/' target='new '><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/imagination.png' style='width:50%'></a>
+          <a href='https://shanghai.imagination.com/' target='new '><img src='/dist/images/past_sponsors/imagination.png' style='width:50%'></a>
         </li>
         <li>
-          <a href='http://www.frogdesign.com/ ' target='new '><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/frog.png' style='width:30%'></a>
+          <a href='http://www.frogdesign.com/ ' target='new '><img src='/dist/images/past_sponsors/frog.png' style='width:30%'></a>
         </li>
         <li>
-          <a href='http://www.wkshanghai.com/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/w+k.png' style='width:45%'></a>
+          <a href='http://www.wkshanghai.com/' target='new'><img src='/dist/images/past_sponsors/w+k.png' style='width:45%'></a>
         </li>
         <li>
-          <a href='https://wiredcraft.com/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/wiredcraft.png' style='width:60%'></a>
+          <a href='http://www.ef.com.cn/' target='new'><img src='/dist/images/past_sponsors/ef.png' width='30%'></a>
         </li>
         <li>
-          <a href='http://www.ef.com.cn/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/ef.png' width='30%'></a>
+          <a href='http://centralstudios.cn/' target='new'><img src='/dist/images/past_sponsors/central-studios.png' style='width:55%'></a>
         </li>
         <li>
-          <a href='http://centralstudios.cn/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/central-studios.png' style='width:55%'></a>
+          <a href='http://chinagdg.org/' target='new'><img src='/dist/images/past_sponsors/GDG.png' style='width:45%'></a>
         </li>
         <li>
-          <a href='http://chinagdg.org/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/GDG.png' style='width:45%'></a>
+          <a href='http://www.linkplace.com.cn/' target='new'><img src='/dist/images/past_sponsors/linkplace.png' style='width:50%'></a>
         </li>
         <li>
-          <a href='http://www.linkplace.com.cn/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/linkplace.png' style='width:50%'></a>
+          <a href='http://www.people-squared.com/' target='new'><img src='/dist/images/past_sponsors/people-squared.png' style='width:50%'></a>
         </li>
+      </ul>
+    </div>
+    <div class='list logos'>
+      <h3>{{ site.data.i18n[page.language].organizer }}</h3>
+      <ul>
         <li>
-          <a href='http://www.people-squared.com/' target='new'><img src='{{ site.url }}{{ site.baseurl }}/dist/images/past_sponsors/people-squared.png' style='width:50%'></a>
+          <a href='https://wiredcraft.com/' target='new'><img src='/dist/images/past_sponsors/wiredcraft.png' style='width:70%'></a>
         </li>
       </ul>
     </div>

@@ -13,23 +13,19 @@
 @import 'modules/_typography';
 // @import 'modules/_twig';
 @import 'modules/_arrow';
-
 @import 'modules/_tooltip';
 @import 'modules/_form';
 @import 'modules/_button';
 @import 'modules/_responsive';
 
-
 /* Styles */
 
+@import 'defaults/_icon';
 @import 'defaults/_general';
 @import 'defaults/_button';
 @import 'defaults/_form';
-@import 'defaults/_modal';
 @import 'defaults/_font';
-@import 'defaults/_icon';
-
-
+@import 'defaults/_modal';
 
 /* Partials */
 
@@ -39,5 +35,6 @@
 @import 'partials/_widget';
 
 /* Pages */
+
 @import 'pages/_homepage';
 @import 'pages/_staticpage';

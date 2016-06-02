@@ -13,6 +13,7 @@
       text-align: center;
       a {
         display: inline-block;
+        line-height: $space*2;
         height: $space*2;
         width: $space*2;
         &:hover {
@@ -24,7 +25,7 @@
         &:before {
           @include icon;
           color: rgba(255, 255, 255, 0.5);
-          @include font-size($large - 2);
+          @include font-size($large + 1);
           content: '';
         }
         &.ins {
@@ -39,6 +40,7 @@
         }
         &.weibo {
           &:before {
+             @include font-size($large + 2);
             content: 'W';
           }
         }
