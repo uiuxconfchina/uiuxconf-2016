@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 讲师征集
+title: 成为讲师
 class: call-for-speakers
 permalink: /call-for-speakers/
 ---

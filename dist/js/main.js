@@ -15,7 +15,7 @@ function toggleModal() {
   })
   $(this).click(function(e) {
     var eTarget = $(e.target);
-    if ($(eTarget).hasClass('scroller') || eTarget.hasClass('modal')) {
+    if ($(eTarget).hasClass('scroller') || eTarget.hasClass('modal') || eTarget.hasClass('container')) {
       body.toggleClass('modal-open');
     } else {
       e.stopPropagation();

@@ -24,49 +24,52 @@
     right: 0;
     top: 0;
     position: fixed;
-    .box {
-      box-sizing: border-box;
-      background: $background;
-      border-radius: $radius;
-      box-shadow: $shadow;
-      padding: $space*2.5;
-      position: relative;
-      margin: 15px auto;
-      max-width: 600px;
-      width: 90%;
-      text-align: left;
-      z-index: 3000;
-      h2 {
-        white-space: normal;
-        word-break: break-word;
-      }
-      form.subscription {
-        margin: 0;
-        width: 100%;
-        label {
-          @include font-size($normal);
-          color: tint($black, 10%);
-          margin-bottom: $space/6;
-          text-align: left;
+    .container {
+      min-height: 0;
+      .box {
+        box-sizing: border-box;
+        background: $background;
+        border-radius: $radius;
+        box-shadow: $shadow;
+        padding: $space*2.5;
+        position: relative;
+        margin: 15px auto;
+        max-width: 600px;
+        width: 90%;
+        text-align: left;
+        z-index: 3000;
+        h2 {
+          white-space: normal;
+          word-break: break-word;
         }
-        p {
-          display: none;
-        }
-        input {
-          width: 60%;
-        }
-        button {
-          @include button($navy);
-          width: 40%;
-        }
-        @include breakpoint(mobile) {
-          input {
-            border-right: 1px solid $navy;
+        form.subscription {
+          margin: 0;
+          width: 100%;
+          label {
+            @include font-size($normal);
+            color: tint($black, 10%);
             margin-bottom: $space/6;
-            width: 100%!important;
+            text-align: left;
+          }
+          p {
+            display: none;
+          }
+          input {
+            width: 60%;
           }
           button {
-            width: 60%!important;
+            @include button($navy);
+            width: 40%;
+          }
+          @include breakpoint(mobile) {
+            input {
+              border-right: 1px solid $navy;
+              margin-bottom: $space/6;
+              width: 100%!important;
+            }
+            button {
+              width: 60%!important;
+            }
           }
         }
       }

@@ -8,14 +8,17 @@
   top: 50%;
   margin-top: - $space*1.8;
   width: $space*1.8;
-  @include breakpoint(mobile) {
-    height: $space*2.4;
-    margin-top: - $space*1.2;
-    width: $space*1.2;
-  }
+  // @include breakpoint(mobile) {
+  //   height: $space*2.4;
+  //   margin-top: - $space*1.2;
+  //   width: $space*1.2;
+  // }
   .back-to-top,
   .qrcode {
+    color: $black;
     cursor: pointer;
+    text-decoration: none;
+    display: block;
     height: $space*1.8;
     text-align: center;
     width: $space*1.8;
@@ -29,13 +32,13 @@
       -webkit-backface-visibility: hidden;
       @include transform-style(preserve-3d);
     }
-    @include breakpoint(mobile) {
-      height: $space*1.2;
-      width: $space*1.2;
-      &:before {
-        line-height: $space*1.2;
-      }
-    }
+    // @include breakpoint(mobile) {
+    //   height: $space*1.2;
+    //   width: $space*1.2;
+    //   &:before {
+    //     line-height: $space*1.2;
+    //   }
+    // }
     &:hover {
       &:before {
         opacity: 1;
