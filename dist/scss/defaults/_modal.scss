@@ -29,7 +29,7 @@
       background: $background;
       border-radius: $radius;
       box-shadow: $shadow;
-      padding: $space*2;
+      padding: $space*2.5;
       position: relative;
       margin: 15px auto;
       max-width: 600px;
@@ -39,9 +39,6 @@
       h2 {
         white-space: normal;
         word-break: break-word;
-      }
-      p {
-        color: $grey;
       }
       form.subscription {
         margin: 0;
