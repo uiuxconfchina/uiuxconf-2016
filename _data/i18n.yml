@@ -12,8 +12,8 @@ en:
     dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our Early Bird ticket sale. We will have a limited number of discounted tickets during this sale, so don't miss out."
     be_first: Be the first to hear about ticket sales, confirmed speakers and more.
     notify_me: Notify me
-    call_for_speakers_p: <strong>Inspire</strong>. Present a talk at the first ever UI/UX Conference China.  Call for proposals is open until <strong>July 1st.</strong>.
-    call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>July 15th.</strong>.
+    call_for_speakers_p: <strong>Inspire</strong>. Present a talk at the first ever UI/UX Conference China.  Call for proposals is open until <strong>July 1st.</strong>
+    call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>July 15th.</strong>
     join: Inspire
     inspire: Inspire
     sponsor: Connect
@@ -26,7 +26,7 @@ en:
     past_sponsors: Past Sponsors
     organizer: Organizer
     ticket: Tickets
-    call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 1st.</strong>. </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
+    call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 1st.</strong> </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
     call_for_speakers_p2: <p>Use the <a href='#apply'>link to the form</a> below to nominate yourself or someone else to speak or host a workshop at UI/UX Conf China. You can also nominate a topic and we'll try to find a speaker to match.</p><p>If you have something kickass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic and we'll try to find a match. Fill in and submit this form.</p><p>Not sure what to speak about? Find your inspiration from our past UI/UX meetups from Shanghai and Berlin on <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKV_8eC8lylLNaIyYKx_VJhz' target='new'>YouTube</a> or <a href='http://www.tudou.com/home/wiredcraft' target='new'>Tudou</a>.</p><p><strong>We encourage presentations of all UIUX-related topics and are happy to provide support.</strong></p><p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a> and we'll be happy to help.</p>
     the_perks: The Perks
     the_perks_p1: "<p>If you get selected as a speaker at the first ever UI/UX Conf 2016, here's what you'll be provided :</p>"
@@ -67,7 +67,7 @@ cn:
     call_for_speakers_and_workshops: 成为讲师
     call_for_sponsors: 成为赞助商
     about: 关于我们
-    past_events: 往届活动
+    past_events: 过往活动
     shanghai: 上海
     get_tickets: 早鸟票信息
     stay_tuned: 敬请期待
