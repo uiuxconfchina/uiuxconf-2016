@@ -52,7 +52,7 @@
         <a href='http://www.meetup.com/UIUX-Meetup-SH/' target='new'><img src="/dist/images/about/meetup-7.jpg" /></a>
       </li>
     </ul>
-    <div class='list'>
+    <div class='block past'>
       <h3>{{ site.data.i18n[page.language].what_we_did }}</h3>
       <ul>
         <li><img src='/dist/images/shape-1.png'>
@@ -66,7 +66,17 @@
           <br/><span>{{ site.data.i18n[page.language].speakers }}</span></li>
       </ul>
     </div>
-    <div class='list logos'>
+    <div class='block'>
+      <h3>{{ site.data.i18n[page.language].who_is_the_organizer }}</h3>
+      <div class='cols'>
+      <div>
+          <a href='https://wiredcraft.com/' target='new'><img src='/dist/images/past_sponsors/wiredcraft.png'></a>
+        </div>
+      </ul>
+      <p class='intro'>{{ site.data.i18n[page.language].who_is_the_organizer_p }}</p>
+    </div>
+    </div>
+    <div class='block logos'>
       <h3>{{ site.data.i18n[page.language].past_sponsors }}</h3>
       <ul>
         <li>
@@ -95,13 +105,13 @@
         </li>
       </ul>
     </div>
-    <div class='list logos'>
+    <!-- <div class='block logos'>
       <h3>{{ site.data.i18n[page.language].organizer }}</h3>
       <ul>
         <li>
           <a href='https://wiredcraft.com/' target='new'><img src='/dist/images/past_sponsors/wiredcraft.png' style='width:70%'></a>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </section>
