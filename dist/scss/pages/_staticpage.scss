@@ -76,4 +76,71 @@
       }
     }
   }
+  /* convince your boss */
+  img.title {
+    margin-bottom: $space*2;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    display: inherit;
+    margin-bottom: $space*4;
+    @include breakpoint(mobile) {
+      margin-bottom: $space*2;
+    }
+    &.cn {
+      max-width: 600px;
+    }
+  }
+  .col-right {
+    display: table;
+    margin-bottom: $space*3;
+    width: 100%;
+    .img {
+      width: 78%;
+      float: right;
+      text-align: center;
+      img {
+        float: left;
+        width: 100%;
+        @include breakpoint(mobile) {
+          float: none;
+          display: inline-block;
+          width: 70%;
+        }
+      }
+    }
+    div.col {
+      width: 70%;
+    }
+    .img,
+    div.col {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    @include breakpoint(mobile) {
+      display: block;
+      div.col {
+        width: 100%;
+      }
+      .img {
+        display: block;
+        margin: $space*2 auto;
+        width: 100%;
+      }
+    }
+  }
+  .email {
+    border-radius: $radius;
+    border: 1px solid $navy;
+    color: $navy;
+    
+    word-wrap: break-word;
+    .hr {
+      padding: $space;
+      border-bottom: 1px solid $navy;
+    }
+    .article {
+      padding: $space;
+    }
+  }
 }

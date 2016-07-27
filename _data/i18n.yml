@@ -3,15 +3,19 @@ en:
     call_for_speakers: Call For Speakers
     call_for_speakers_and_workshops: Call For Speakers and Workshops
     call_for_sponsors: Call For Sponsors
+    sponsors: Sponsors
+    some_sponsors: Some of our Sponsors
     about: About
     past_events: Past Events
     shanghai: Shanghai
+    subscribe: Subscribe
     get_tickets: Get an Early Bird Ticket
     stay_tuned: Stay tuned
-    dont_miss_out: "Don't miss out on the Early Bird ticket sale!"
-    dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our Early Bird ticket sale. We will have a limited number of discounted tickets during this sale, so don't miss out."
+    dont_miss_out: "Don't miss out on our news!"
+    dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our news."
     be_first: Be the first to hear about ticket sales, confirmed speakers and more.
     notify_me: Notify me
+    medias: Media Partners
     call_for_speakers_p: <strong>Inspire</strong>. Present a talk at the first ever UI/UX Conference China.  Call for proposals is open until <strong>July 15th</strong>.
     call_for_sponsors_p: <strong>Connect</strong>. Experience the local design community in China. Support the first ever UI/UX Conference in Shanghai - limited sponsorship opportunities available. Open until <strong>Aug. 1st</strong>.
     join: Inspire
@@ -22,7 +26,7 @@ en:
     what_we_did: What we've done
     meetups: meetups
     attendees: attendees
-    speakers: speakers
+    speakers: Speakers
     past_sponsors: Past Sponsors
     who_is_the_organizer: Who's the organizer?
     who_is_the_organizer_p: <a href='http://wiredcraft.com' target='new'>Wiredcraft</a> is a full service digital agency based in Shanghai, Washington DC and Berlin. We are Design, Data Science, API and DevOps experts. Think data visualizations for the World Bank Open Data Portal, or election software for the first democratic elections in Myanmar in 25 years. We support our local tech and design communities by organizing monthly meetups, <a href='http://2016.jsconf.cn' target='new'>JSConf China</a> and UI/UX Conf China.
@@ -30,6 +34,7 @@ en:
     why_organize_p: "Wiredcraft began organizing the monthly <a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers Meetup</a> in Shanghai in October 2015 to create a space for designers of all levels and backgrounds to grow their networks, learn, and share their experience and expertise. The community spoke: 3 hours a month wasn't enough, two speakers wasn't enough, more design, more networking. From this desire and our unique expertise, UI/UX Conf China comes to you this October. "
     organizer: Organizer
     ticket: Tickets
+    buyticket: Buy tickets
     call_for_speakers_p1: <p>Inspire the design community in China. Speak or present a workshop at the upcoming UI/UX Conference on October 15-16, 2016 in Shanghai. The CFP is open until <strong>July 15th</strong>. </p><p>This two-day community-driven conference will feature more than twenty presentations focused on storytelling, design strategy, best practices, creative inspiration and more. Count on experienced speakers sharing their expertise and experiences from international companies and thriving startups. Talks in English and Mandarin are welcome.</p>
     call_for_speakers_p2: <p>Use the <a href='#apply'>link to the form</a> below to nominate yourself or someone else to speak or host a workshop at UI/UX Conf China. You can also nominate a topic and we'll try to find a speaker to match.</p><p>If you have something kickass to share, tell us all about it. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic and we'll try to find a match. Fill in and submit this form.</p><p>Not sure what to speak about? Find your inspiration from our past UI/UX meetups from Shanghai and Berlin on <a href='https://www.youtube.com/playlist?list=PLEHsmTsBKpKV_8eC8lylLNaIyYKx_VJhz' target='new'>YouTube</a> or <a href='http://www.tudou.com/home/wiredcraft' target='new'>Tudou</a>.</p><p><strong>We encourage presentations of all UIUX-related topics and are happy to provide support.</strong></p><p>Is this your first time speaking? Want some feedback before submitting your proposal? Get in touch with the event organizer at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a> and we'll be happy to help.</p>
     the_perks: The Perks
@@ -45,7 +50,7 @@ en:
     silver_sponsor: Silver Sponsor
     bronze_sponsor: Bronze Sponsor
     call_for_sponsors_p1: "2016 UI/UX Conf has three sponsorship levels: gold, silver, bronze. Your support is very important to the conference and the conference committee ensures that these contributions are well recognized. We listed the benefits and costs below. We are open to any sponsorship needs - chat with an organizer about package details at <a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>."
-    call_for_sponsors_p2: "<p><strong>What else can you sponsor?</strong></p><ul class='list'><li><strong>A speaker</strong>: Cover the transportation and accommodation of the speaker from your company</li><li><strong>After-party food & beverage</strong>: Brand exposure limited to the after-party/coffee break. Can be a non-design type of brand.</li><li><strong>Coverage</strong>: Mutual brand exposure with the partner company.</li><li><strong>À la carte</strong>: We can also offer you brand exposure in exchange for merchandise (raffle prizes or gifts, books, badge lanyards) or services (wifi, accommodation…).</li></ul>"
+    call_for_sponsors_p2: "<p><h3>What else can you sponsor?</h3></p><ul class='list'><li><strong>A speaker</strong>: Cover the transportation and accommodation of the speaker from your company</li><li><strong>After-party food & beverage</strong>: Brand exposure limited to the after-party/coffee break. Can be a non-design type of brand.</li><li><strong>Coverage</strong>: Mutual brand exposure with the partner company.</li><li><strong>À la carte</strong>: We can also offer you brand exposure in exchange for merchandise (raffle prizes or gifts, books, badge lanyards) or services (wifi, accommodation…).</li></ul>"
     download: Download Sponsor Package
     coc: Code of Conduct
     coc_intro: <h2>Short Version</h2>
@@ -63,6 +68,19 @@ en:
       <p>We expect participants to follow these rules at all conference venues and conference-related social events.</p>
       <h4>License</h4>
       <p>This Code of Conduct was forked from the example policy from the Geek Feminism wiki, created by the Ada Initiative and other volunteers, which is under a Creative Commons Zero license.</p>
+    cyb: Convince your Boss
+    how_to_cyb: How to Convince your Boss
+    cyb_p: You love design and want to be part of UI/UX Conf. Need some support to get here? Convince your boss that UI/UX Conf is a great investment for your design team. We did all the heavy lifting for you including stats, and a great email template. 
+    cyb_p1: <p>You're staring at your screen right now. You might be at work, you might be lounging on your bed, you might be on the subway.</p><p>You are staring at your screen right now because you love design.</p><p>You live, breathe, and eat design and think the whole world should, too. Since you're staring at your screen, you're probably not talking with other designers at the moment; you probably haven't spoken to a designer outside of work in weeks. Let's do something about that.</p>
+    cyb_p2: <p>It's time to unleash your creativity and your ideas. Meet and interact with 1000 designers in the flesh at UI/UX Conf in Shanghai this October. Learn about new trends, find people that agree with and that challenge your design philosophies, make lifelong friends that are also making the world a more well-designed place. </p><p>This two-day conference will have networking, talks by 20 top designers from all over the world, and workshops for you to grow personally and professionally as a designer. </p>
+    cyb_p3: UI/UX Conf China was born from <a href='http://wiredcraft.com' target='new'>Wiredcraft</a>'s monthly <a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UIUX meetups in Shanghai</a>, which took off like wildfire. The meetups soon had waitlists longer than your arm and people were clamoring for more opportunities to hang out and network, so the folks at Wiredcraft put together this conference to unite all of these interested designers and design experts from around the world.
+    cyb_p4: "<h2>Now the tricky part: covering your ticket and other expenses</h2><p>Good news, you can convince your boss. Going to conferences isn't just about individual growth; it can really help your team. Benefits for your company for attending UI/UX Conf:<br/><ol><li>You can find awesome designers, like yourself, to hire full-time or freelance</li><li>You will learn new design skills/techniques/inspiration during our talks</li><li>You'll be refreshed, motivated, and ready to get back to work and do great designing</li><li>Your company's name recognition and brand will be more widely known, thanks to this connected global design community</li><li>You'll have great stories to share with your team for inspiration and brainstorming</li><li>You can find new business leads for your company to pursue</li><li>You'll probably come back happier, healthier, less stressed, and more productive</li></ol></p>"
+    cyb_p5: "<h2>Is UI/UX Conf China expensive?</h2><ul><li>IXDC in Beijing - 215 USD - 1500 RMB（Half day keynote speech）</li><li>Participatory Design Conference in Denmark - 670 USD / 4500 RMB</li><li>UX and Digital Design Week in London - 2600 USD / 17000 RMB</li><li>HybridConf in Berlin - 550 USD / 3700 RMB</li><li>UIST in Tokyo - 695 USD / 4600 RMB</li><li>Service Design Hong Kong - 500 USD / 3350 RMB</li><li>UX Australia - 880 USD / 6800 RMB</li></ul><p><h3>What's our price?</h3></p><p>Early bird: 68 USD / 450 RMB<br/>Group price (for 5+): 90 USD / 600 RMB<br/>Regular price: 120 USD / 800 RMB</p><p><h3>What you get in the price of the ticket - </h3></p><ul><li>2 day conference ticket</li><li>1 bag filled to the brim with premium swag</li><li>Raffle tickets to win 10 Sketch Licenses, educational books & design materials</li><li>Access to the after-party</li><li>Access to top-notch workshops</li><li>Lunch for two days</li></ul>"
+    cyb_p6: "<h2>Email Template:</h2><p>We've made it easy. Here's a template to send to your boss:</p><div class='email'>
+    <div class='hr'><strong>To:</strong> El Jefe [ eljefe@mycompany.com]<br/>
+    <strong>Subject:</strong>  UI/UX Conf China 2016 will benefit our design team<br/></div>
+    <div class='article'>Dear El Jefe, <br/><br/>
+    <p>Design is our company's heart and soul. We know the importance that design makes in our everyday workflow and our products and how it's an ever-evolving field.  In support of our company's commitment to design, I think we should sponsor our team's attendance at UI/UX Conf China on October 15th-16th in Shanghai (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>).</p><p>UI/UX Conf is a nonprofit, community-driven conference that focuses on bringing together designers of all disciplines to share in knowledge and community. The conference was born from the UI/UX Designers Meetup in Shanghai and has the strong support of the design community.</p> <p>I believe our company would benefit from our designers' attendance for the following reasons:</p> <ol><li>This conference is a chance to hear from respected designers from all over the world, sharing what they do at their companies</li><li>We'll have the chance to interact with designers from companies like Google, Facebook, frog, Autodesk, Netflix, Mc Donald's, etc  to have success design processes</li><li>This is an opportunity to build a network for recruitment and generating leads</li><li>The price point is awesome - at 600RMB for group deal, it's a steal compared to other conferences in the Asia-Pacific region</li><li>The design team will come back inspired and will learn from the community, bringing back new ideas to the team</li><li>A trip to such an awesome conference will offer us a chance to relax and refresh and return ready to great work</li><li>We should take advantage of this great opportunity to meet designers in the greater Asian community. </li><li>We can take advantage of the early bird discount, or look into the group rates (5 or more at 600 RMB each) offered here. <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>Best Regards, <br/>Your Dazzling Designer</p></div></div>"
 
 
 cn:
@@ -70,15 +88,19 @@ cn:
     call_for_speakers: 成为讲师
     call_for_speakers_and_workshops: 成为讲师
     call_for_sponsors: 成为赞助商
+    sponsors: 赞助商
+    some_sponsors: 我们的一些赞助商
     about: 关于我们
     past_events: 过往活动
     shanghai: 上海
-    get_tickets: 早鸟票信息
+    subscribe: 订阅
+    get_tickets: 购买早鸟票
     stay_tuned: 敬请期待
-    dont_miss_out: 不要错过早鸟票的发售！
-    dont_miss_out_p: 加入UI/UX Conf的邮件订阅，第一时间获取早鸟票的发售信息，数量有限，不要错过。
+    dont_miss_out: 不要错过我们的最新动态！
+    dont_miss_out_p: 加入UI/UX Conf的邮件订阅，第一时间获取我们的最新动态。
     be_first: 第一时间知道早鸟票折扣及活动信息
     notify_me: 获取最新讯息
+    medias: 媒体合作伙伴 
     call_for_speakers_p: <strong>启迪</strong>：成为上海第一次UIUX设计大会的讲师。申请截止：<strong>7月15日</strong>。
     call_for_sponsors_p: <strong>连接</strong>： 成为第一届UIUX设计大会的赞助商，支持UIUX设计社群。申请截止：<strong>8月1日</strong>。
     join: 加入
@@ -97,6 +119,7 @@ cn:
     why_organize_p: "Wiredcraft自2015年10月份开始在上海组织每月一度的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX Designers meetup</a>希望为来自不同背景及领域的设计师提供合作与交流的空间、开拓人际网络及互相学习、分享他们的经验与专长。历时近一年，每场活动都很成功，但是——一个月3个小时及2个演讲嘉宾并不能满足我们的期盼，大家想要得到更多设计咨询和社交机会！因此，今年十月我们将为大家带来首届中国交互与界面设计大会。"
     organizer: 组织者
     ticket: 购票
+    buyticket: 购票参会
     call_for_speakers_p1: <p>分享观点，为中国UIUX社群提供新的思路和见解。欢迎做一个20分钟的主题演讲或者举办一场工作坊。讲者申请截止至<strong>7月15日</strong>。欢迎中、英文演讲。 </p><p>在这两天的大会中你将听到20多场来自资深UIUX设计大牛们的主题演讲(交互设计、视觉设计、用户研究设计、管理服务设计、设计思维等)、参与到多个交互设计体验工作坊、结识其他800多位和你一样有想法的创意人士。 本次活动参与者包括多家国际知名设计公司及国内外新兴企业，“<strong>探索、启迪、连接</strong>” 是本次大会的主题。</p>
     call_for_speakers_p2: <p>请通过以下<a href='#apply'>按钮</a>点击申请成为讲师或者推荐优秀讲师给我们</p><p>如果你有新颖的观点要分享，请告诉我们。如果你知道其他的优秀讲师，请推荐给我们。如果你有特别想了解的话题，告诉我们，我们会尽力帮你找到匹配的讲师。总之，填写表格吧！</p><p>如果你想了解往届UIUX meetup活动，这里是过去一年的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>活动页面</a>，<a href='http://www.meetup.com/UIUX-Meetup-SH/photos/'>照片</a>和<a href='http://www.tudou.com/home/wiredcraft' target='new'>视频</a>。</p><p><strong>我们欢迎各种UIUX相关话题，并且愿意提供帮助。</strong></p><p>如果这是你的第一次演讲，并且想在提交申请前得到一些反馈，请联系活动组织者<a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a>，我们会及时回复。</p>
     the_perks: 讲师特权
@@ -116,4 +139,26 @@ cn:
     download: 获取更多赞助详情
     coc: 行为规范
     coc_intro: <h2>简洁版</h2><p>中国交互与界面设计大会旨在为所有人提供一场平等的设计交流大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式的和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。</p><h2>完整版</h2><h4>骚扰</h4><p>骚扰包括在公共场合有带性别、肤色、外表、信仰倾向的无礼的言语评论、色情图片、故意恐吓、盯梢、跟踪、骚扰摄影或者录音、持续性地打断演讲者、不恰当的身体接触以及不受欢迎的性倾向。参会者必须遵守大会守则，不出现上述行为。</p><h4>参展者 & 赞助商</h4><p>所有会场内的参展者、赞助商以及会场工作人员等类似角色的人也都要遵守不能有骚扰他人行为的政策。特别要注意，参展者不应当使用任何带有性色彩的图片和行为。工作人员（包括志愿者）也不应当穿戴任何有性色彩的服饰/制服等。</p><h4>参会者</h4><p>如发现有骚扰行为的参会者，大会组织者有权采取以下正当行为予以阻止：对其进行警告、将其逐出会场，并不退还参会费用。如果你被人骚扰或者发现有人被骚扰了，请及时联系我们的工作人员大会工作人员都穿戴有统一的T恤衫和证件。大会工作人员也会很乐意帮助参会者联系酒店/会场安保人员、当地警察，阻止这类行为。为参会者提供一个安全的环境。希望你对此能够引起足够的注意。</p><h4>工作人员信息</h4><p>Coco Yu<br/><a href='mailto:coco@wiredcraft.com'>coco@wiredcraft.com</a></p><h4>会场 & 社交场所</h4><p>我们希望参会者能够在所有的大会会场以及相关的社交场所遵守行为守则。</p><h4>许可证</h4><p>这份行为准则借鉴自Ada Initiative和其他志愿者创建的Geek Feminism wiki示例政策，遵守Creative Commons Zero许可证。</p>
+    cyb: 说服你的老板
+    how_to_cyb: 如何说服你的老板
+    cyb_p: 热爱设计并且想参与UI/UX Conf？需要一些帮助？说服你的老板UI/UX Conf是一次对设计团队的绝佳投资！我们帮你做了数据分析和贴心的Email模版，棘手的部分都解决了，还等什么呢！
+    cyb_p1: <p>此刻你正盯着屏幕，可能在办公室伏案工作，可能正挤在人潮汹涌的地铁，也可能正学葛大爷躺在沙发上。</p><p>这么认真地看着，你一定热爱设计 —— 生活、咀嚼、一呼一吸间都进行着设计的观察与思考，并且相信这个世界就该被更好地设计。</p><p>然而屏幕背后，你或许独自一人，大概好几个星期没有和工作和朋友圈之外的设计师交流，与其一个人观察、思考、设计，不如和我们一起！</p>
+    cyb_p2: <p>十月来上海参加UI/UX Conf China，和其他1000名设计师们面对面交流，释放和展示你的创造力和新点子！了解最新的设计趋势，和支持或者挑战你设计原则的陌生人交谈，遇见那个对设计同样执着的终生朋友……</p><p>这个持续两天的大会将聚集20个世界范围内的顶尖设计师，带来他们精心准备的主题演讲，另外还有两个专题工作坊。作为一个职业设计师或者设计爱好者，两天大会后，你一定会获得专业拓展及个人成长。</p>
+    cyb_p3: UI/UX Conf China（中国用户界面与交互设计大会）起源于<a href='http://wiredcraft.com' target='new'>Wiredcraft</a>在上海每月一次举办的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>UI/UX meetup</a>，之后它的成长如野火之势——线下聚会报名的候补名单越来越长，分享越来越精彩，大家开始要求增加可以让更多人参与的机会。所以组织方<a href='http://wiredcraft.com' target='new'>Wiredcraft</a>决定组织这场大会来连系全球的交互设计体验的专家和志趣相投的设计师们。
+    cyb_p4: "<h2>现在到了棘手的部分：申请报销你的行程及其他开销</h2><p>好消息是，你可以轻松说服你的老板！参加UI/UX Conf China不仅利于参会者的个人成长，同样也能帮助整个设计团队。<br/>我们为你列出了参加UI/UX Conf China为你公司带来的回报：<ol><li>你会遇到很多像你一样优秀的设计师，你的公司有机会聘用全职或者兼职的设计师；</li>
+<li>通过这20场大会演讲，你将收获很多全新的设计思路/技巧/灵感；</li>
+<li>当你回去工作的时候你会做出更棒的设计，因为你的思维已经焕然一新并且有了全新动力；</li>
+<li>通过这次大会平台，你的公司将会得到品牌曝光并得到设计界的更大知名度；</li>
+<li>当你和你的团队进行头脑风暴来寻找灵感的时候，你有更多的好故事和相关案例；</li>
+<li>你会为你的公司找到潜在客户；</li>
+<li>参加完大会后，你会变得更开心、健康、有效率。</li></ol>"
+    cyb_p5: "<h2>UI/UX Conf China 2016的门票贵吗？</h2><ul><li>北京 IXDC大会 - 215 USD - 1500RMB（半天的主题演讲）</li><li>丹麦 Participatory Design大会 - 670 USD / 4500 RMB</li><li>伦敦 UX and Digital Design Week - 2600 USD / 17000 RMB</li><li>柏林 HybridConf - 550 USD / 3700 RMB</li><li>东京 UIST - 695 USD / 4600 RMB</li><li>香港 Service Design - 500 USD / 3350 RMB</li><li>澳大利亚UX大会 - 880 USD / 6800 RMB</li></ul><p><h3>UI/UX Conf China的门票定价是：</h3></p><p>早鸟票： 68 USD / 450 RMB<br/>团队票 (5人及以上)：90 USD / 600 RMB<br/>普通票：120 USD／800 RMB</p><p><h3>我们的票价包含——</h3></p><ul><li>大会两天入场券；</li><li>超值大会礼品包；</li><li>大会抽奖券，赢取10个免费Sketch账号及设计相关的书籍等等；</li><li>大会派对免费入场券；</li><li>两天下午工作坊；</li><li>大会两天免费午餐；</li></ul>"
+    cyb_p6: "<h2>邮件模板：</h2><p>我们帮你写好了发给老板的邮件模板：</p><div class='email'>
+    <div class='hr'><strong>收信人:</strong> El Jefe [ eljefe@mycompany.com]<br/>
+    <strong>主题:</strong>  参加 UI/UX Conf China 2016 会使我们的设计团队变得更棒！<br/></div>
+    <div class='article'>
+    嗨老板！ <br/><br/>
+    <p>设计一直是我们公司的灵魂及核心所在。我们了解设计在我们每日工作流程及产品设计中的举足轻重，并且清楚这是一个永远在变化和进步的领域。为了表示我们公司对于设计的重视，我认为我们应该支持我们的团队去参加上海15-16日的UI/UX Conf China (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>)。</p><p>UI/UX Conf China是一个专注于服务设计社区，致力于分享各领域设计师知识技能，主导并提供设计师们的交流机会的非营利性质的大会。这个会议起源于上海的UI/UX 设计师线下聚会，并且获得了强大的设计社区支持。</p> <p>我相信我们公司将从本次参会中获得：</p> <ol><li>这次大会提供给我们聆听全世界优秀设计师们的演讲的机会，并且了解到不同的公司如何工作。</li><li>我们会有机会和来自谷歌, Facebook, frog, Autodesk, Netflix, 麦当劳等演讲嘉宾交流互动，并学习他们成功的设计流程；</li><li>这是一个很好的建立人脉网络的机会，由此我们也有机会招聘或找到业务需求；</li><li>大会票价很实惠，团体票只需要600元，和其他亚太地区的同等大会相比太合算了；</li><li>我们的设计团队在能在大会中及从这个设计圈中学习到很多，并且激发灵感，给团队带回新的血液；</li><li>大会的两天会让我们有机会从平日的工作调整状态，整理好自己，并且准备好会后投入到工作当中去；</li><li>我们应该抓住了解亚洲设计社区的绝佳机会，同时我们可以开始抢购早鸟票及团队票了，链接 - <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>祝好，<br/>你出色的设计师</p></div></div>"
+
+
 

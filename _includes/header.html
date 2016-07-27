@@ -5,18 +5,22 @@
 <nav id='nav'>
   <div class='box'>
     {% if page.language == 'cn' %}
-    <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/cn/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
-    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/cn/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
+   
     <a href='/cn/#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
-    <a href='http://meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>{{ site.data.i18n[page.language].past_events }}</a> {% else %}
-    <a class="{% if page.url contains 'call-for-speakers' %}active{% endif %}" href='/call-for-speakers/'>{{ site.data.i18n[page.language].call_for_speakers }}</a>
-    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
+    <a href='/cn/#speakers' class='speakers'>{{ site.data.i18n[page.language].speakers }}</a>
+    <a href='/cn/#sponsors' class='sponsors'>{{ site.data.i18n[page.language].sponsors }}</a>
+    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/cn/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
+    
+    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/cn/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a> {% else %}
     <a href='/#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
-    <a href='http://meetup.com/Shanghai-UI-UX-Designers-Meetup/' target='new'>{{ site.data.i18n[page.language].past_events }}</a> {% endif %}
+    <a href='/#speakers' class='speakers'>{{ site.data.i18n[page.language].speakers }}</a>
+    <a href='/#sponsors' class='sponsors'>{{ site.data.i18n[page.language].sponsors }}</a>
+    <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
+    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a> {% endif %}
   </div>
   <button class='close'></button>
 </nav>
 {% if page.language == 'cn' %}
 <a href='/' class='lang'>English</a> {% else %}
 <a href='/cn' class='lang'>中文</a> {% endif %}
-<button class='button primary ticket cta'>{{ site.data.i18n[page.language].ticket }}</button>
+<button class='button secondary ticket cta'>{{ site.data.i18n[page.language].subscribe }}</button>

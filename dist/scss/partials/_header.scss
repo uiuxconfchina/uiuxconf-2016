@@ -2,8 +2,11 @@
   box-sizing: border-box;
   display: table;
   position: relative;
-  padding: $space 3%;
+  padding: $space/2 3%;
   width: 100%;
+  @include breakpoint(desktop) {
+    padding: $space 3%;
+  }
   @include breakpoint(mobile) {
     font-size: 80%;
   }
@@ -13,10 +16,13 @@
   @include breakpoint(desktop) {
     font-size: 100%;
   }
+  .button.secondary {
+    min-width: auto!important;
+  }
   .button.nav {
     display: inline-block;
     padding: $space/6;
-    margin: -1px 0 0 $space/3;
+    margin: 5px $space/3 5px $space/3;
     @include breakpoint(desktop) {
       display: none;
       margin: $space/3 + 3 0 0 $space/3;
@@ -56,6 +62,7 @@
         display: block;
         padding: 0 $space/2;
         margin: 0 $space/2;
+        text-transform: capitalize;
         width: auto;
         &.active {
           color: $navy;
@@ -82,8 +89,8 @@
           @include font-size($normal);
           display: inline-block;
           color: $grey;
-          padding: 0 $space/2;
-          margin: 0 $space/2;
+          padding: 0;
+          margin: 0 2.5%;
           &.active {
             color: $navy;
             font-weight: 500;
@@ -104,7 +111,6 @@
   .logo {
     float: left;
     width: $space*3.5;
-    margin-top: -$space/4;
     img {
       float: left;
       width: 100%;
@@ -115,9 +121,11 @@
     }
   }
   .lang {
-    line-height: 28px;
+    line-height: 30px;
+    margin: 5px $space/3 5px $space/3;
     @include breakpoint(desktop) {
       line-height: 56px;
+      margin: 0;
     }
   }
   .ticket,
@@ -126,7 +134,7 @@
   }
   .ticket {
     padding: $space/6 $space/2;
-    margin: -1px $space/2 0;
+    margin: 5px $space/3 5px $space/3;
     @include breakpoint(desktop) {
       margin: $space/3 + 3 $space 0 0;
     }

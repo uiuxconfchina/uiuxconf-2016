@@ -123,9 +123,9 @@ button.close {
   background: transparent;
   outline: none;
   border: 0;
-  height: $space*2;
-  line-height: $space*2;
-  width: $space*2;
+  height: ($space*3 - 12px);
+  line-height: ($space*3 - 12px);
+  width: ($space*3 - 12px);
   &:before {
     @include icon;
     content: 'x';
@@ -133,6 +133,80 @@ button.close {
   &:hover {
     &:before {
       opacity: 0.8;
+    }
+  }
+}
+
+
+/* columns */
+
+.col-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  .col {
+    position: absolute;
+    top: 50%;
+    @include transform(translateY(-50%));
+  }
+  @include breakpoint(mobile) {
+    &.col-left {
+      margin-bottom: $space*4;
+    }
+    img {
+      display: block;
+      margin: $space auto $space auto;
+      width: 50%;
+    }
+    .col {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      transform: translateY(0);
+      text-align: center;
+    }
+  }
+  &.col-left {
+    padding-right: 68%;
+    img {
+      width: 85%;
+      @include breakpoint(mobile) {
+        width: 70%;
+      }
+    }
+    .col {
+      right: 0px;
+      width: 60%;
+    }
+    @include breakpoint(mobile) {
+      padding: 0px;
+      .col {
+        right: 0px;
+        width: 100%;
+      }
+    }
+  }
+  &.col-right {
+    // margin-top: $space*8;
+    padding-left: 68%;
+    .col {
+      left: 0px;
+      width: 60%;
+    }
+    @include breakpoint(mobile) {
+      padding: 0px;
+      .col {
+        right: 0px;
+        width: 100%;
+      }
+      img {
+        width: 70%;
+      }
     }
   }
 }

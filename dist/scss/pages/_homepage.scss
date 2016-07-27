@@ -15,6 +15,14 @@
         text-transform: capitalize;
         width: 100%;
       }
+      a.button.tickets {
+        &:before {
+          @include icon;
+          content: 't';
+          color: rgba(255, 255, 255, 0.5);
+          margin: 2px 5px 2px 0;
+        }
+      }
       form.subscription {
         label {
           @include font-size($normal);
@@ -44,74 +52,133 @@
 }
 
 #call-for-proposal {
+  .col-wrapper {
+    p {
+      color: $grey;
+    }
+  }
+}
+
+#speakers {
   .wrapper {
-    div {
-      box-sizing: border-box;
-      position: relative;
-      padding: 0;
-      width: 100%;
-      img {
-        width: 100%;
-      }
-      .col {
-        position: absolute;
-        top: 50%;
-        @include transform(translateY(-50%));
-      }
-      @include breakpoint(mobile) {
-        &#call-for-speakers {
-          margin-bottom: $space*4;
+    margin-top: 0;
+    padding-top: 120px;
+    border-top: 1px solid $line;
+    .list {
+      text-align: center;
+      li {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        width: 200px;
+        height: 300px;
+        margin: $space/2 $space/2 $space*2;
+        @include breakpoint(desktop) {
+          height: 340px;
         }
         img {
-          display: block;
-          margin: $space auto $space auto;
-          width: 50%;
+          max-width: 170px;
+          border-radius: 50%;
         }
-        .col {
-          position: relative;
-          top: 0;
+        div {
           left: 0;
-          right: 0;
-          transform: translateY(0);
-          text-align: center;
-        }
-      }
-      &#call-for-speakers {
-        padding-right: 68%;
-        .col {
-          right: 0px;
-          width: 60%;
-        }
-        @include breakpoint(mobile) {
-          padding: 0px;
-          .col {
-            right: 0px;
-            width: 100%;
+          position: absolute;
+          top: 200px;
+          width: 100%;
+          span {
+            color: ligten($grey, 10%);
+          }
+          em {
+            color: $grey;
           }
         }
-      }
-      &#call-for-sponsors {
-        // margin-top: $space*8;
-        padding-left: 68%;
-        .col {
-          left: 0px;
-          width: 60%;
-        }
-        @include breakpoint(mobile) {
-          padding: 0px;
-          .col {
-            right: 0px;
-            width: 100%;
-          }
-        }
-      }
-      p {
-        color: $grey;
       }
     }
   }
 }
 
+#sponsors {
+  .wrapper {
+    margin-top: 0;
+    padding-top: 120px;
+    border-top: 1px solid $line;
+    .list {
+      text-align: center;
+      li {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        height: 170px;
+        margin: 0 $space;
+        a {
+          display: table-cell;
+          height: 170px;
+          vertical-align: middle;
+          @include transition(all 0.1s ease-in-out);
+          img {
+            max-width: 170px;
+            max-height: 90px;
+          }
+          &:hover {
+            opacity: 0.85;
+          }
+        }
+        // }
+        // div {
+        //   left: 0;
+        //   position: absolute;
+        //   top: 200px;
+        //   width: 100%;
+        //   span {
+        //     color: ligten($grey, 10%);
+        //   }
+        //   em {
+        //     color: $grey;
+        //   }
+        // }
+      }
+    }
+  }
+}
+
+//   .wrapper {
+//     div {
+//       box-sizing: border-box;
+//       position: relative;
+//       padding: 0;
+//       width: 100%;
+//       img {
+//         width: 100%;
+//       }
+//       .col {
+//         position: absolute;
+//         top: 50%;
+//         @include transform(translateY(-50%));
+//       }
+//       @include breakpoint(mobile) {
+//         &.left {
+//           margin-bottom: $space*4;
+//         }
+//         img {
+//           display: block;
+//           margin: $space auto $space auto;
+//           width: 50%;
+//         }
+//         .col {
+//           position: relative;
+//           top: 0;
+//           left: 0;
+//           right: 0;
+//           transform: translateY(0);
+//           text-align: center;
+//         }
+//       }
+//       p {
+//         color: $grey;
+//       }
+//     }
+//   }
+// }
 #about {
   .wrapper {
     margin-top: 0;

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: call-for-speakers
-class: call-for-speakers
+title: code-of-conduct
+class: code-of-conduct
 permalink: /code-of-conduct/
 
 ---
