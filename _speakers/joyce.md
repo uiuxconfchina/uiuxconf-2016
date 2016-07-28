@@ -1,7 +1,7 @@
 ---
 user: joyce
-title: Jenny Yang
-position: Director of Innovation, Strategy & Design
-company: CBi
-featured: false
+title: Joyce Liu 刘珺婕
+position: Interaction Designer
+company: Bosch UX / Cheese Video
+featured: true
 ---

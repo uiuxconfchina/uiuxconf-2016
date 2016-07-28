@@ -13,6 +13,8 @@ collections:
     output: false
   sponsors:
     output: false
+  medias:
+    output: false
 
 
 # Plugins

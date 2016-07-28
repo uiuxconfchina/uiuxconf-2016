@@ -63,8 +63,19 @@
 </section>
 <section id='sponsors'>
   <div class='wrapper'>
-    <h2>{{ site.data.i18n[page.language].some_sponsors }}</h2>
+    <h2>{{ site.data.i18n[page.language].sponsors }}</h2>
+    <h3>{{ site.data.i18n[page.language].medias }}</h3>
     <ul class='list'>
+      {% for medias in site.medias %} {% if medias.featured %}
+      <li>
+        <a href='{{ medias.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ medias.user }}.png'>
+        </a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+    <h3>{{ site.data.i18n[page.language].specials }}</h3>
+    <ul class='list specials'>
       {% for sponsors in site.sponsors %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
