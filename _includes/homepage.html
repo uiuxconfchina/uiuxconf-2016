@@ -69,7 +69,7 @@
       {% for medias in site.medias %} {% if medias.featured %}
       <li>
         <a href='{{ medias.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ medias.user }}.png'>
+          <img src='/dist/images/sponsors/{{ medias.user }}.png?'>
         </a>
       </li>
       {% endif %} {% endfor %}
@@ -79,7 +79,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?'>
         </a>
       </li>
       {% endif %} {% endfor %}
