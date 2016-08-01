@@ -62,6 +62,10 @@
       padding: $space/4;
       img {
         float: left;
+        width: $space*13;
+        @include breakpoint(mobile) {
+          width: $space*10;
+        }
       }
     }
     &:before {
