@@ -77,6 +77,10 @@ ol {
   }
 }
 
+input {
+  -webkit-appearance: none;
+}
+
 small {
   @include font-size($small);
 }

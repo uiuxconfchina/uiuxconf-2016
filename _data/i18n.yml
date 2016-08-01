@@ -10,11 +10,15 @@ en:
     past_events: Past Events
     shanghai: Shanghai
     subscribe: Subscribe
-    get_tickets: Get an Early Bird Ticket
+    get_tickets: Get Tickets
     stay_tuned: Stay tuned
     dont_miss_out: "Don't miss out on our news!"
     dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our news."
     be_first: Be the first to hear about ticket sales, confirmed speakers and more.
+    confirmed_speakers: Confirmed Speakers
+    more_to_come: More to come ..
+    keynote_speakers: "Keynote talk"
+    workshop_speakers: "Workshop"
     notify_me: Notify me
     medias: Media Partners
     call_for_speakers_p: <strong>Inspire</strong>. Present a talk at the first ever UI/UX Conference China.  Call for proposals is open until <strong>July 15th</strong>.
@@ -78,7 +82,7 @@ en:
     cyb_p4: "<h2>Now the tricky part: covering your ticket and other expenses</h2><p>Good news, you can convince your boss. Going to conferences isn't just about individual growth; it can really help your team. Benefits for your company for attending UI/UX Conf:<br/><ol><li>You can find awesome designers, like yourself, to hire full-time or freelance</li><li>You will learn new design skills/techniques/inspiration during our talks</li><li>You'll be refreshed, motivated, and ready to get back to work and do great designing</li><li>Your company's name recognition and brand will be more widely known, thanks to this connected global design community</li><li>You'll have great stories to share with your team for inspiration and brainstorming</li><li>You can find new business leads for your company to pursue</li><li>You'll probably come back happier, healthier, less stressed, and more productive</li></ol></p>"
     cyb_p5: "<h2>Is UI/UX Conf China expensive?</h2><ul><li>IXDC in Beijing - 215 USD - 1500 RMB（Half day keynote speech）</li><li>Participatory Design Conference in Denmark - 670 USD / 4500 RMB</li><li>UX and Digital Design Week in London - 2600 USD / 17000 RMB</li><li>HybridConf in Berlin - 550 USD / 3700 RMB</li><li>UIST in Tokyo - 695 USD / 4600 RMB</li><li>Service Design Hong Kong - 500 USD / 3350 RMB</li><li>UX Australia - 880 USD / 6800 RMB</li></ul><p><h3>What's our price?</h3></p><p>Early bird: 68 USD / 450 RMB<br/>Group price (for 5+): 90 USD / 600 RMB<br/>Regular price: 120 USD / 800 RMB</p><p><h3>What you get in the price of the ticket - </h3></p><ul><li>2 day conference ticket</li><li>1 bag filled to the brim with premium swag</li><li>Raffle tickets to win 10 Sketch Licenses, educational books & design materials</li><li>Access to the after-party</li><li>Access to top-notch workshops</li><li>Lunch for two days</li></ul>"
     cyb_p6: "<h2>Email Template:</h2><p>We've made it easy. Here's a template to send to your boss:</p><div class='email'>
-    <div class='hr'><strong>To:</strong> El Jefe [ eljefe@mycompany.com]<br/>
+    <div class='hr'><strong>To:</strong> El Jefe [eljefe@mycompany.com]<br/>
     <strong>Subject:</strong>  UI/UX Conf China 2016 will benefit our design team<br/></div>
     <div class='article'>Dear El Jefe, <br/><br/>
     <p>Design is our company's heart and soul. We know the importance that design makes in our everyday workflow and our products and how it's an ever-evolving field.  In support of our company's commitment to design, I think we should sponsor our team's attendance at UI/UX Conf China on October 15th-16th in Shanghai (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>).</p><p>UI/UX Conf is a nonprofit, community-driven conference that focuses on bringing together designers of all disciplines to share in knowledge and community. The conference was born from the UI/UX Designers Meetup in Shanghai and has the strong support of the design community.</p> <p>I believe our company would benefit from our designers' attendance for the following reasons:</p> <ol><li>This conference is a chance to hear from respected designers from all over the world, sharing what they do at their companies</li><li>We'll have the chance to interact with designers from companies like Google, Facebook, frog, Autodesk, Netflix, Mc Donald's, etc  to have success design processes</li><li>This is an opportunity to build a network for recruitment and generating leads</li><li>The price point is awesome - at 600RMB for group deal, it's a steal compared to other conferences in the Asia-Pacific region</li><li>The design team will come back inspired and will learn from the community, bringing back new ideas to the team</li><li>A trip to such an awesome conference will offer us a chance to relax and refresh and return ready to great work</li><li>We should take advantage of this great opportunity to meet designers in the greater Asian community. </li><li>We can take advantage of the early bird discount, or look into the group rates (5 or more at 600 RMB each) offered here. <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>Best Regards, <br/>Your Dazzling Designer</p></div></div>"
@@ -96,11 +100,15 @@ cn:
     past_events: 过往活动
     shanghai: 上海
     subscribe: 订阅
-    get_tickets: 购买早鸟票
+    get_tickets: 购票参会
     stay_tuned: 敬请期待
     dont_miss_out: 不要错过我们的最新动态！
     dont_miss_out_p: 加入UI/UX Conf的邮件订阅，第一时间获取我们的最新动态。
     be_first: 第一时间知道早鸟票折扣及活动信息
+    confirmed_speakers: 已确认讲师
+    more_to_come: 其余5名讲师将会尽快确认
+    keynote_speakers: "主题演讲"
+    workshop_speakers: "工作坊"
     notify_me: 获取最新讯息
     medias: 媒体合作伙伴 
     call_for_speakers_p: <strong>启迪</strong>：成为上海第一次UIUX设计大会的讲师。申请截止：<strong>7月15日</strong>。
@@ -156,11 +164,11 @@ cn:
 <li>参加完大会后，你会变得更开心、健康、有效率。</li></ol>"
     cyb_p5: "<h2>UI/UX Conf China 2016的门票贵吗？</h2><ul><li>北京 IXDC大会 - 215 USD - 1500RMB（半天的主题演讲）</li><li>丹麦 Participatory Design大会 - 670 USD / 4500 RMB</li><li>伦敦 UX and Digital Design Week - 2600 USD / 17000 RMB</li><li>柏林 HybridConf - 550 USD / 3700 RMB</li><li>东京 UIST - 695 USD / 4600 RMB</li><li>香港 Service Design - 500 USD / 3350 RMB</li><li>澳大利亚UX大会 - 880 USD / 6800 RMB</li></ul><p><h3>UI/UX Conf China的门票定价是：</h3></p><p>早鸟票： 68 USD / 450 RMB<br/>团队票 (5人及以上)：90 USD / 600 RMB<br/>普通票：120 USD／800 RMB</p><p><h3>我们的票价包含——</h3></p><ul><li>大会两天入场券；</li><li>超值大会礼品包；</li><li>大会抽奖券，赢取10个免费Sketch账号及设计相关的书籍等等；</li><li>大会派对免费入场券；</li><li>两天下午工作坊；</li><li>大会两天免费午餐；</li></ul>"
     cyb_p6: "<h2>邮件模板：</h2><p>我们帮你写好了发给老板的邮件模板：</p><div class='email'>
-    <div class='hr'><strong>收信人:</strong> El Jefe [ eljefe@mycompany.com]<br/>
+    <div class='hr'><strong>收信人:</strong> El Jefe [eljefe@mycompany.com]<br/>
     <strong>主题:</strong>  参加 UI/UX Conf China 2016 会使我们的设计团队变得更棒！<br/></div>
     <div class='article'>
     嗨老板！ <br/><br/>
-    <p>设计一直是我们公司的灵魂及核心所在。我们了解设计在我们每日工作流程及产品设计中的举足轻重，并且清楚这是一个永远在变化和进步的领域。为了表示我们公司对于设计的重视，我认为我们应该支持我们的团队去参加上海15-16日的UI/UX Conf China (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>)。</p><p>UI/UX Conf China是一个专注于服务设计社区，致力于分享各领域设计师知识技能，主导并提供设计师们的交流机会的非营利性质的大会。这个会议起源于上海的UI/UX 设计师线下聚会，并且获得了强大的设计社区支持。</p> <p>我相信我们公司将从本次参会中获得：</p> <ol><li>这次大会提供给我们聆听全世界优秀设计师们的演讲的机会，并且了解到不同的公司如何工作。</li><li>我们会有机会和来自谷歌, Facebook, frog, Autodesk, Netflix, 麦当劳等演讲嘉宾交流互动，并学习他们成功的设计流程；</li><li>这是一个很好的建立人脉网络的机会，由此我们也有机会招聘或找到业务需求；</li><li>大会票价很实惠，团体票只需要600元，和其他亚太地区的同等大会相比太合算了；</li><li>我们的设计团队在能在大会中及从这个设计圈中学习到很多，并且激发灵感，给团队带回新的血液；</li><li>大会的两天会让我们有机会从平日的工作调整状态，整理好自己，并且准备好会后投入到工作当中去；</li><li>我们应该抓住了解亚洲设计社区的绝佳机会，同时我们可以开始抢购早鸟票及团队票了，链接 - <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>祝好，<br/>你出色的设计师</p></div></div>"
+    <p>设计一直是我们公司的灵魂及核心所在。我们了解设计在我们每日工作流程及产品设计中的举足轻重，并且清楚这是一个永远在变化和进步的领域。为了表示我们公司对于设计的重视，我认为我们应该支持我们的团队去参加上海10月15-16日的UI/UX Conf China 2016 (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>)。</p><p>UI/UX Conf China是一个专注于服务设计社区，致力于分享各领域设计师知识技能，主导并提供设计师们的交流机会的非营利性质的大会。这个会议起源于上海的UI/UX 设计师线下聚会，并且获得了强大的设计社区支持。</p> <p>我相信我们公司将从本次参会中获得：</p> <ol><li>这次大会提供给我们聆听全世界优秀设计师们的演讲的机会，并且了解到不同的公司如何工作。</li><li>我们会有机会和来自谷歌, Facebook, frog, Autodesk, Netflix, 麦当劳等演讲嘉宾交流互动，并学习他们成功的设计流程；</li><li>这是一个很好的建立人脉网络的机会，由此我们也有机会招聘或找到业务需求；</li><li>大会票价很实惠，团体票只需要600元，和其他亚太地区的同等大会相比太合算了；</li><li>我们的设计团队在能在大会中及从这个设计圈中学习到很多，并且激发灵感，给团队带回新的血液；</li><li>大会的两天会让我们有机会从平日的工作调整状态，整理好自己，并且准备好会后投入到工作当中去；</li><li>我们应该抓住了解亚洲设计社区的绝佳机会，同时我们可以开始抢购早鸟票及团队票了，链接 - <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>祝好，<br/>你出色的设计师</p></div></div>"
 
 
 

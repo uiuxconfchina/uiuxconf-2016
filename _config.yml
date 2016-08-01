@@ -1,5 +1,5 @@
 # Site settings
-title: "UIUX Conf China"
+title: "UI/UX Conf China"
 baseurl: ""
 url: "http://2016.uiuxconf.com"
 exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'dist/scss', 'dist/js']
@@ -14,6 +14,8 @@ collections:
   sponsors:
     output: false
   medias:
+    output: false
+  workshop:
     output: false
 
 

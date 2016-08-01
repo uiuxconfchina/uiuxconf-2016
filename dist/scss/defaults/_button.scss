@@ -12,7 +12,6 @@
     @include button($secondary);
     border-color: $navy;
     color: $navy;
-    min-width: $space*5;
     &:hover,&:active,&:focus {
       background: transparent;
       color: $navy;

@@ -45,19 +45,34 @@
 </section>
 <section id='speakers'>
   <div class='wrapper'>
-    <h2>{{ site.data.i18n[page.language].speakers }}</h2>
+    <h2>{{ site.data.i18n[page.language].confirmed_speakers }}</h2>
+    <h3>{{ site.data.i18n[page.language].keynote_speakers }}</h3>
     <ul class='list'>
       {% for speaker in site.speakers %} {% if speaker.featured %}
       <li>
         <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
         <div>
-          <h5>{{ speaker.title }} </h5>
+          <h5>{{ speaker.title }}</h5>
           <span>{{ speaker.position }}</span>
           <br/>
           <em>{{ speaker.company }}</em>
         </div>
       </li>
       {% endif %} {% endfor %}
+      <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3>
+
+      {% for speaker in site.workshop %} {% if speaker.featured %}
+      <li>
+        <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
+        <div>
+          <h5>{{ speaker.title }}</h5>
+          <span>{{ speaker.position }}</span>
+          <br/>
+          <em>{{ speaker.company }}</em>
+        </div>
+      </li>
+      {% endif %} {% endfor %}
+      <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p>
     </ul>
   </div>
 </section>
