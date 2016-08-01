@@ -266,6 +266,7 @@ form.subscription button{width:144px}
 }
 #call-for-proposal .col-wrapper p{color:#878787}
 #speakers .wrapper{margin-top:0}
+#speakers .wrapper h3{text-align:center;margin-bottom:48px}
 #speakers .wrapper .list{text-align:center;margin:0}
 #speakers .wrapper .list li{position:relative;display:inline-block;list-style:none;width:200px;height:290px;margin:12px}
 #speakers .wrapper .list li img{max-width:170px;border-radius:50%}
