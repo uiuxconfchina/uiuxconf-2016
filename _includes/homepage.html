@@ -48,7 +48,9 @@
     <h2>{{ site.data.i18n[page.language].confirmed_speakers }}</h2>
     <h3>{{ site.data.i18n[page.language].keynote_speakers }}</h3>
     <ul class='list'>
-      {% for speaker in site.speakers %} {% if speaker.featured %}
+      {% for speaker in site.speakers %}
+      {% if speaker.talk == 'keynote' %}
+      {% if speaker.featured %}
       <li>
         <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
         <div>
@@ -58,10 +60,14 @@
           <em>{{ speaker.company }}</em>
         </div>
       </li>
-      {% endif %} {% endfor %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
       <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3>
 
-      {% for speaker in site.workshop %} {% if speaker.featured %}
+      {% for speaker in site.speakers %}
+      {% if speaker.talk == 'workshop' %}
+      {% if speaker.featured %}
       <li>
         <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
         <div>
@@ -71,7 +77,9 @@
           <em>{{ speaker.company }}</em>
         </div>
       </li>
-      {% endif %} {% endfor %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
       <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p>
     </ul>
   </div>
