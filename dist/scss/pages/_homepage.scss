@@ -121,17 +121,17 @@
     padding-top: 120px;
     border-top: 1px solid $line;
     .list {
-      margin: 0;
+      margin: 0 0 $space*2 0;
       text-align: center;
       li {
         position: relative;
         display: inline-block;
         list-style: none;
-        height: 170px;
+        height: 140px;
         margin: 0 $space;
         a {
           display: table-cell;
-          height: 170px;
+          height: 140px;
           vertical-align: middle;
           @include transition(all 0.1s ease-in-out);
           img {
