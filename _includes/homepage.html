@@ -48,9 +48,7 @@
     <h2>{{ site.data.i18n[page.language].confirmed_speakers }}</h2>
     <h3>{{ site.data.i18n[page.language].keynote_speakers }}</h3>
     <ul class='list'>
-      {% for speaker in site.speakers %}
-      {% if speaker.talk == 'keynote' %}
-      {% if speaker.featured %}
+      {% for speaker in site.speakers %} {% if speaker.talk == 'keynote' %} {% if speaker.featured %}
       <li>
         <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
         <div>
@@ -60,14 +58,8 @@
           <em>{{ speaker.company }}</em>
         </div>
       </li>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3>
-
-      {% for speaker in site.speakers %}
-      {% if speaker.talk == 'workshop' %}
-      {% if speaker.featured %}
+      {% endif %} {% endif %} {% endfor %}
+      <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3> {% for speaker in site.speakers %} {% if speaker.talk == 'workshop' %} {% if speaker.featured %}
       <li>
         <img src='/dist/images/speakers/{{ speaker.user }}.jpg'>
         <div>
@@ -77,35 +69,37 @@
           <em>{{ speaker.company }}</em>
         </div>
       </li>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      {% endif %} {% endif %} {% endfor %}
       <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p>
     </ul>
   </div>
 </section>
 <section id='sponsors'>
   <div class='wrapper'>
-<!--     <h2>{{ site.data.i18n[page.language].sponsors }}</h2> -->
+    <!--     <h2>{{ site.data.i18n[page.language].sponsors }}</h2> -->
     <h3>{{ site.data.i18n[page.language].medias }}</h3>
     <ul class='list'>
-      {% for medias in site.medias %} {% if medias.featured %}
-      <li>
-        <a href='{{ medias.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ medias.user }}.png?'>
-        </a>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-    <h3>{{ site.data.i18n[page.language].specials }}</h3>
-    <ul class='list specials'>
-      {% for sponsors in site.sponsors %} {% if sponsors.featured %}
+      {% for sponsors in site.sponsors %}
+      {% if sponsors.type == 'media' %}
+      {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
           <img src='/dist/images/sponsors/{{ sponsors.user }}.png?'>
         </a>
       </li>
-      {% endif %} {% endfor %}
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
+    <h3>{{ site.data.i18n[page.language].special }}</h3>
+    <ul class='list specials'>
+      {% for sponsors in site.sponsors %} 
+      {% if sponsors.type == 'special' %}
+      {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
