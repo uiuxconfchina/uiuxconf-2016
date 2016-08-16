@@ -89,7 +89,9 @@
       </li>
       {% endif %} {% endif %} {% endfor %}
     </ul>
-    <h3>{{ site.data.i18n[page.language].special }}</h3>
+
+    <h3>{{ site.data.i18n[page.language].specials }}</h3>
+
     <ul class='list specials'>
       {% for sponsors in site.sponsors %} 
       {% if sponsors.type == 'special' %}
@@ -101,6 +103,7 @@
       </li>
       {% endif %} {% endif %} {% endfor %}
     </ul>
+    <div class='action'>{{ site.data.i18n[page.language].interested }}</div>
   </div>
 </section>
 <section id='about'>

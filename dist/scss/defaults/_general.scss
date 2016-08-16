@@ -141,6 +141,15 @@ button.close {
   }
 }
 
+.action {
+  width: 100%;
+  text-align: center;
+  .button {
+    display: inline-block;
+    margin: $space*3.5 auto;
+  }
+}
+
 
 /* columns */
 
