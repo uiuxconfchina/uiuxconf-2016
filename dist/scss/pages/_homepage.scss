@@ -80,20 +80,20 @@
         height: 290px;
         margin: $space/2 $space/2 $space/2;
         @include breakpoint(desktop) {
-          height: 340px;
+          height: 320px;
           margin: $space/2 $space/2 $space;
         }
         img {
-          max-width: 170px;
+          max-width: 160px;
           border-radius: 50%;
         }
         div {
           left: 0;
           position: absolute;
-          top: 190px;
+          top: 180px;
           width: 100%;
           @include breakpoint(desktop) {
-            top: 200px;
+            top: 190px;
           }
           span {
             color: darken($grey, 30%);
