@@ -89,6 +89,7 @@ button.close{position:absolute;top:0;right:0;padding:0;font-family:arial;font-si
 button.close:before{font-weight:400;content:'x'}
 button.close:hover:before{opacity:.8}
 .action .button{margin:84px auto}
+.action .button.secondary{margin-top:24px}
 .col-wrapper{box-sizing:border-box;position:relative;padding:0;width:100%}
 .col-wrapper .col{position:absolute;top:50%;transform:translateY(-50%)}
 @media (max-width:640px){.col-wrapper.col-left{margin-bottom:96px}
