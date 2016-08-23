@@ -2,5 +2,5 @@
 user: ca
 link: http://chinaccelerator.com/
 featured: true
-type: special
+type: media
 ---

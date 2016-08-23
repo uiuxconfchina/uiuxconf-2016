@@ -147,6 +147,9 @@ button.close {
   .button {
     display: inline-block;
     margin: $space*3.5 auto;
+    &.secondary {
+      margin-top: $space;
+    }
   }
 }
 
