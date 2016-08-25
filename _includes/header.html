@@ -5,18 +5,20 @@
 <nav id='nav'>
   <div class='box'>
     {% if page.language == 'cn' %}
-   
-    <a href='/cn/#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
+    
+    <a href='/cn/#schedule' class='schedule'>{{ site.data.i18n[page.language].schedule }}</a>
     <a href='/cn/#speakers' class='speakers'>{{ site.data.i18n[page.language].speakers }}</a>
     <a href='/cn/#sponsors' class='sponsors'>{{ site.data.i18n[page.language].sponsors }}</a>
     <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/cn/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    
-    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/cn/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a> {% else %}
-    <a href='/#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
+    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/cn/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a>
+    <a href='/cn/#about' class='about'>{{ site.data.i18n[page.language].about }}</a> {% else %}
+    <a href='/#schedule' class='schedule'>{{ site.data.i18n[page.language].schedule }}</a>
     <a href='/#speakers' class='speakers'>{{ site.data.i18n[page.language].speakers }}</a>
     <a href='/#sponsors' class='sponsors'>{{ site.data.i18n[page.language].sponsors }}</a>
     <a class="{% if page.url contains 'call-for-sponsors' %}active{% endif %}" href='/call-for-sponsors/'>{{ site.data.i18n[page.language].call_for_sponsors }}</a>
-    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a> {% endif %}
+    <a class="{% if page.url contains 'convince-your-boss' %}active{% endif %}" href='/convince-your-boss/'>{{ site.data.i18n[page.language].cyb }}</a>
+    <a href='/#about' class='about'>{{ site.data.i18n[page.language].about }}</a>
+    {% endif %}
   </div>
   <button class='close'></button>
 </nav>

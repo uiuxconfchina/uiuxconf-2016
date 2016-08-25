@@ -1,0 +1,159 @@
+.tables {
+  display: relative;
+  .table {
+    position: relative;
+    opacity: 0;
+    display: none;
+    top: 0;
+    &.show {
+      display: block;
+      opacity: 1;
+    }
+    table {
+      table-layout: fixed;
+      width: 100%;
+      padding: $space;
+      tbody {
+        tr {
+          border-bottom: 1px solid $line;
+          span {
+            // color: $grey;
+            font-weight: 300;
+            display: inline-block;
+            width: 100%;
+          }
+          em {
+            @include font-size($smaller);
+            color: lighten($grey, 10%);
+          }
+          &.keynote {
+            background: lighten($navy, 43%);
+            @include transition(all 0.15s ease-in-out);
+            &:hover {
+              background: lighten($navy, 42%);
+            }
+            h4 {
+              font-weight: 700;
+              margin-bottom: $space/2;
+            }
+          }
+          samp{
+            font-family: $body;
+              @include font-size($small);
+              line-height: $small*1px;
+              top: $space/6;
+              right: $space/6;
+              padding: $space/12;
+              border-radius: $radius;
+              position: absolute;
+              background: lighten($navy, 25%);
+              color: #fff;
+          }
+          &.cn td,
+          td.cn {
+            samp {
+              font-family: $body;
+              @include font-size($small);
+              line-height: $small*1px;
+              top: $space/6;
+              right: $space/6;
+              padding: $space/12;
+              border-radius: $radius;
+              position: absolute;
+              background: lighten($fushia, 30%);
+              color: #fff;
+            }
+          }
+          &:last-child {
+            border-bottom: 0px;
+          }
+          td {
+            padding: $space;
+            position: relative;
+            @include breakpoint(mobile) {
+              padding: $space/4;
+            }
+            &.time {
+              @include font-size($large + 4);
+              font-weight: 700;
+              width: 25%;
+              @include breakpoint(mobile) {
+                @include font-size($larger);
+                width: 20%;
+              }
+              i {
+                @include font-size($small);
+                font-style: normal;
+                font-weight: 300
+              }
+            }
+            &.workshop {
+              border-left: 1px solid $line;
+              position: relative;
+              div.row {
+                background: lighten($navy, 41%);
+                text-align: center;
+                @include transition(all 0.15s ease-in-out);
+                box-sizing: border-box;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0px;
+                padding: $space;
+                bottom: 0px;
+                &:hover {
+                  background: lighten($navy, 40%);
+                }
+                @include display(flex);
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                align-items: center;
+                // &:nth-child(2) {
+                //   background: lighten($fushia, 51%);
+                //   &:hover {
+                //     background: lighten($fushia, 50%);
+                //   }
+                // }
+                div {
+                  width: 100%;
+                  h4 {
+                    margin-top: $space;
+                  }
+                  time {
+                    @include font-size($large + 4);
+                    font-weight: 700;
+                    @include breakpoint(mobile) {
+                      @include font-size($larger);
+                    }
+                    i {
+                      @include font-size($small);
+                      font-style: normal;
+                      font-weight: 300
+                    }
+                  }
+                }
+              }
+            }
+            i.moderator {
+              color: $grey;
+              @include font-size($smaller);
+            }
+          }
+        }
+      }
+    }
+    &.day2 {
+      .workshop {
+        div.row {
+          height: 50%;
+          &:first-child {
+            border-bottom: 1px solid $line;
+            bottom: auto;
+            top: 0px;
+          }
+        }
+      }
+    }
+  }
+}

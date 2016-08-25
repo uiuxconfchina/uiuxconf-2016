@@ -2,7 +2,7 @@
 user: franco
 title: Franco Papeschi
 position: Creative Director
-company: Frog
+company: frog
 featured: true
 talk: keynote
 ---

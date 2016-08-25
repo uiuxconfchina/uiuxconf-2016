@@ -60,6 +60,57 @@
   }
 }
 
+#schedule {
+  .wrapper {
+    padding-top: 120px;
+    border-top: 1px solid $line;
+    margin-top: 0;
+    #sticky-wrapper {
+      z-index: 1;
+      position: relative;
+      .tabnav {
+        background: rgba(255, 255, 255, 0.95);
+        border-bottom: 1px solid $line;
+      }
+    }
+    .tabs {
+      padding: $space 0;
+      text-align: center;
+      h3 {
+        @include transition(all 0.15s ease-in-out);
+        cursor: pointer;
+        color: lighten($grey, 10%);
+        display: inline-block;
+        margin: $space/4 $space;
+        width: auto;
+        @include breakpoint(mobile) {
+          margin: $space/4 $space/3;
+        }
+        &.active {
+          color: $navy;
+          border-bottom: 2px solid $navy;
+        }
+        // &:last-child {
+        //   &.active {
+        //     color: $fushia;
+        //     border-bottom: 2px solid $fushia;
+        //   }
+        // }
+        &:hover {
+          color: $navy;
+        }
+      }
+    }
+    p.tip {
+      color: $navy;
+      margin-top: $space*2;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
 #speakers {
   .wrapper {
     margin-top: 0;

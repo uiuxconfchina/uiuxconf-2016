@@ -42,6 +42,9 @@ h6 {
 
 h3 {
   @include font-size($large);
+  @include breakpoint(mobile) {
+    @include font-size($larger);
+  }
 }
 
 h1 {
