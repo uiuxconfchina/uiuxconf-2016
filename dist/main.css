@@ -248,7 +248,7 @@ form.subscription button{width:130px}
 form.subscription input{width:372px}
 form.subscription button{width:144px}
 }
-.widget{background:#fff;border-radius:2px;border:1px solid #e0e4e5;height:86.4px;position:fixed;right:3%;top:50%;margin-top:-43.2px;width:43.2px}
+.widget{background:#fff;border-radius:2px;border:1px solid #e0e4e5;height:86.4px;position:fixed;right:3%;top:50%;margin-top:-43.2px;width:43.2px;z-index:4}
 @media (max-width:640px){.widget{height:67.2px;margin-top:-33.6px;width:33.6px}
 }
 .widget .back-to-top,.widget .qrcode{color:#1F1D1D;cursor:pointer;text-decoration:none;display:block;height:43.2px;text-align:center;width:43.2px}

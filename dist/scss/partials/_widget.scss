@@ -8,6 +8,7 @@
   top: 50%;
   margin-top: - $space*1.8;
   width: $space*1.8;
+  z-index: 4;
   @include breakpoint(mobile) {
     height: $space*2.8;
     margin-top: - $space*1.4;

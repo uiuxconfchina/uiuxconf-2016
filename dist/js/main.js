@@ -4,7 +4,7 @@ function toggleMenu() {
   $('button.nav').bind("click tap", function() {
     body.toggleClass('menu-open');
   })
-  $('#header button.close, a.about').bind("click tap", function() {
+  $('#header button.close, a.about,a.schedule,a.sponsors,a.speakers').bind("click tap", function() {
     body.removeClass('menu-open');
   })
 }
@@ -50,7 +50,7 @@ function sticky() {
     }
   }
 
-  $("#header").sticky({ topSpacing: 0, zIndex: 2 });
+  $("#header").sticky({ topSpacing: 0, zIndex: 4 });
   navsticky();
   $(window).scroll(function() {
     navsticky();
@@ -66,7 +66,10 @@ $(document).ready(function() {
   $(window).resize(function() {
     sticky();
   })
-  $('.qrcode').blur(function() {
-    $(this).find('span').css({ 'opacity': 1, 'visibility': 'visible', 'margin-right': '8px' });
+  $('.back-to-top').click(function() {
+    $("html,body").animate({ scrollTop: $(body).offset().top }, 200);
   })
+  // $('.qrcode').blur(function() {
+  //   $(this).find('span').css({ 'opacity': 0, 'visibility': 'hidden', 'margin-right': '0px' });
+  // })
 })
