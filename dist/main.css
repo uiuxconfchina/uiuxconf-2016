@@ -215,6 +215,8 @@ button.close:hover:before{opacity:.8}
 #header-sticky-wrapper.is-sticky #header{border-bottom:1px solid #e0e4e5;padding:12px 3%;background:rgba(255,255,255,.95);position:relative;z-index:1}
 #header-sticky-wrapper.is-sticky #header .logo{width:84px}
 #header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:8px}
+@media (max-width:640px){#header-sticky-wrapper.is-sticky #header .lang{margin:5px 8px}
+}
 #header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:5px 8px}
 #header-sticky-wrapper.is-sticky #header .button.nav{padding:4px;margin:5px 8px}
 #header-sticky-wrapper.is-sticky #header #nav{padding:6px 0}

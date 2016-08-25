@@ -182,6 +182,10 @@
       .lang {
         line-height: 30px;
         margin: $space/3;
+        @include breakpoint(mobile) {
+           margin: 5px $space/3;
+        }
+
       }
       .ticket {
         padding: $space/6 $space/2;
