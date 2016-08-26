@@ -218,12 +218,10 @@ button.close:hover:before{opacity:.8}
 #header-sticky-wrapper{position:absolute;width:100%;top:0;left:0}
 #header-sticky-wrapper.is-sticky #header{border-bottom:1px solid #e0e4e5;padding:10px 3%;background:rgba(255,255,255,.95);position:relative;z-index:1}
 #header-sticky-wrapper.is-sticky #header .logo{width:84px}
-#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:8px}
-@media (max-width:640px){#header-sticky-wrapper.is-sticky #header .lang{margin:5px 8px}
-}
-#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:5px 8px}
+#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:5px 8px}
+#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:3px 8px 5px}
 #header-sticky-wrapper.is-sticky #header .button.nav{padding:4px;margin:5px 8px}
-#header-sticky-wrapper.is-sticky #header #nav{padding:5px 0}
+#header-sticky-wrapper.is-sticky #header #nav{padding:3px 0}
 #footer{display:inline-block;background:#0000B8;text-align:center;width:100%}
 #footer .wrapper{margin:48px auto}
 #footer .wrapper .sns{margin-top:24px;text-align:center}
@@ -322,7 +320,7 @@ form.subscription button{width:144px}
 #schedule .wrapper{padding-top:120px;border-top:1px solid #e0e4e5;margin-top:0}
 #schedule .wrapper #sticky-wrapper{z-index:1;position:relative}
 #schedule .wrapper #sticky-wrapper .tabnav{background:rgba(255,255,255,.95);border-bottom:1px solid #e0e4e5}
-#schedule .wrapper .tabs{padding:24px 0;text-align:center}
+#schedule .wrapper .tabs{padding:12px 0;text-align:center}
 #schedule .wrapper .tabs h3{-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;cursor:pointer;color:#a1a1a1;display:inline-block;margin:6px 24px;width:auto}
 #about .wrapper .block.logos ul li a img,#sponsors .wrapper .list li a{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out}
 #schedule .wrapper .tabs h3.active{color:#2121FB;border-bottom:2px solid #2121FB}
