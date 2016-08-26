@@ -4,8 +4,8 @@ img,legend{border:0}
 legend,td,th{padding:0}
 .select,sub,sup{position:relative}
 .col-wrapper .col,.select:after,.widget .qrcode span{-webkit-transform:translateY(-50%)}
+button,button.close:before,select{text-transform:none}
 .action,.button{text-align:center}
-#header .logo,#modal{-webkit-transition:all .1s ease-in-out}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -27,9 +27,7 @@ hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
 pre,textarea{overflow:auto}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
 button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
-#header .button.nav:before,button.close:before{font-variant:normal;speak:none;text-transform:none;-webkit-font-smoothing:antialiased}
 button{overflow:visible}
-button,select{text-transform:none}
 button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
 button[disabled],html input[disabled]{cursor:default}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
@@ -42,6 +40,7 @@ table{border-collapse:collapse;border-spacing:0}
 html{font-size:62.5%}
 body{font-family:"Museo Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;font-weight:300;line-height:160%}
 h1,h2,h3,h4,h5,h6{font-family:"Museo Slab","Helvetica Neue",Helvetica,sans-serif;font-weight:700;line-height:120%;color:#1F1D1D;letter-spacing:1.5px;margin:0 0 24px}
+#header .button.nav:before,button.close:before{font-variant:normal;font-weight:400;speak:none;-webkit-font-smoothing:antialiased}
 h1{font-size:48px;font-size:4.8rem}
 h2{font-size:32px;font-size:3.2rem}
 h3,h4,h5,h6{font-size:18px;font-size:1.8rem}
@@ -88,7 +87,7 @@ button.close{position:absolute;top:0;right:0;padding:0;font-family:arial;font-si
 #footer .wrapper .sns a:before,#header .button.nav:before,button.close:before{font-family:icons}
 .button,.button.primary{border-radius:2px;box-sizing:border-box;outline:0;-webkit-transition-property:background,border,color;-moz-transition-duration:.2s}
 .action,.col-wrapper img{width:100%}
-button.close:before{font-weight:400;content:'x'}
+button.close:before{content:'x'}
 button.close:hover:before{opacity:.8}
 .action .button{margin:84px auto}
 .action .button.secondary{margin-top:24px}
@@ -154,7 +153,7 @@ button.close:hover:before{opacity:.8}
 @font-face{font-family:'Museo Sans';src:url(/dist/fonts/museosans_500-webfont.eot);src:url(/dist/fonts/museosans_500-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museosans_500-webfont.woff) format("woff"),url(/dist/fonts/museosans_500-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_500-webfont.svg#Avenirltstd) format("svg");font-weight:500}
 @font-face{font-family:'Museo Sans';src:url(/dist/fonts/museosans_700-webfont.eot);src:url(/dist/fonts/museosans_700-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museosans_700-webfont.woff) format("woff"),url(/dist/fonts/museosans_300-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_300-webfont.svg#Nobel) format("svg");font-weight:700}
 @font-face{font-family:'Museo Slab';src:url(/dist/fonts/museoslab_300-webfont.eot);src:url(/dist/fonts/museoslab_300-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museoslab_300-webfont.woff) format("woff"),url(/dist/fonts/museoslab_300-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_300-webfont.svg#Nobel) format("svg");font-weight:700}
-#modal{background:rgba(0,0,0,.8);opacity:0;visibility:hidden;width:100%;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
+#modal{background:rgba(0,0,0,.8);opacity:0;visibility:hidden;width:100%;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
 #about .wrapper .block.logos ul li a img,#header #nav,.widget .back-to-top:before,.widget .qrcode:before{-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d}
 #modal .scroller{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;-webkit-box-pack:distribute;-moz-box-pack:distribute;box-pack:distribute;-webkit-justify-content:space-around;-moz-justify-content:space-around;-ms-justify-content:space-around;-o-justify-content:space-around;justify-content:space-around;-ms-flex-pack:distribute;bottom:0;right:0}
 #modal .scroller .container{min-height:0}
@@ -168,7 +167,7 @@ button.close:hover:before{opacity:.8}
 #modal .scroller .container .box form.subscription button:focus,#modal .scroller .container .box form.subscription button:hover{background:#4242fc;color:#FFF;text-decoration:none}
 #modal .scroller .container .box form.subscription button.active,#modal .scroller .container .box form.subscription button:active{background:#1e1ee2;color:#FFF;text-decoration:none}
 #modal .scroller .container .box form.subscription button.disabled,#modal .scroller .container .box form.subscription button[disabled=disabled],#modal .scroller .container .box form.subscription button[disabled=true],#modal .scroller .container .box form.subscription button[disabled]{background:#ecf0f1;border-color:#d4d8d9;color:#878787}
-#header,#header #nav{background:rgba(255,255,255,.95);top:0;left:0}
+#header,#header #nav{background:rgba(255,255,255,.95);left:0;top:0}
 @media (max-width:640px){#modal .scroller .container .box form.subscription input{border-right:1px solid #2121FB;margin-bottom:4px;width:100%!important}
 #modal .scroller .container .box form.subscription button{width:60%!important}
 #header{font-size:80%}
@@ -183,7 +182,7 @@ button.close:hover:before{opacity:.8}
 #header .button.nav{display:inline-block;padding:4px;margin:5px 8px}
 @media (min-width:1024px){#header .button.nav{display:none;margin:11px 0 0 8px}
 }
-#header .button.nav:before{font-size:24px;font-size:2.4rem;font-weight:400;display:block;content:'m';margin-top:-1px}
+#header .button.nav:before{font-size:24px;font-size:2.4rem;text-transform:none;display:block;content:'m';margin-top:-1px}
 #header #nav{-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out;transform-style:preserve-3d;visibility:hidden;opacity:0;position:fixed;line-height:56px;text-align:center;width:100%;z-index:100;display:table}
 #about .wrapper .block.logos ul li a img,.widget .back-to-top:before,.widget .qrcode:before{-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;-webkit-backface-visibility:hidden}
 #header #nav .box{height:272px;display:table-cell;vertical-align:middle;width:100%}
@@ -202,28 +201,26 @@ button.close:hover:before{opacity:.8}
 #header #nav .box a{margin:0 1%}
 }
 #header .lang,#header .logo{display:block;position:relative;z-index:1}
-#header .logo{float:left;width:84px;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+#header .logo{float:left;width:84px;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 #header .logo img{float:left;width:100%}
 @media (min-width:1024px){#header .logo{margin-top:0;width:120px}
 }
 #header .lang{line-height:30px;margin:5px 8px}
 @media (min-width:1024px){#header .lang{line-height:56px;margin:0}
 }
-#header .lang,#header .ticket{float:right}
+#header .lang,#header .ticket{-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out;float:right}
 #header .ticket{padding:4px 12px;margin:5px 8px}
 .menu-open #header #nav{visibility:visible;opacity:1}
-@media (min-width:1024px){#header .ticket{margin:11px 24px 0 0}
+@media (min-width:1024px){#header .ticket{margin:11px 24px 11px 0}
 .menu-open #header #nav{visibility:hidden;opacity:0}
 }
 #header-sticky-wrapper{position:absolute;width:100%;top:0;left:0}
 #header-sticky-wrapper.is-sticky #header{border-bottom:1px solid #e0e4e5;padding:10px 3%;background:rgba(255,255,255,.95);position:relative;z-index:1}
 #header-sticky-wrapper.is-sticky #header .logo{width:84px}
-#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:8px}
-@media (max-width:640px){#header-sticky-wrapper.is-sticky #header .lang{margin:5px 8px}
-}
-#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:5px 8px}
+#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:5px 0}
+#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:3px 12px}
 #header-sticky-wrapper.is-sticky #header .button.nav{padding:4px;margin:5px 8px}
-#header-sticky-wrapper.is-sticky #header #nav{padding:5px 0}
+#header-sticky-wrapper.is-sticky #header #nav{padding:3px 0}
 #footer{display:inline-block;background:#0000B8;text-align:center;width:100%}
 #footer .wrapper{margin:48px auto}
 #footer .wrapper .sns{margin-top:24px;text-align:center}
@@ -255,6 +252,7 @@ form.subscription button{width:144px}
 .widget{background:#fff;border-radius:2px;border:1px solid #e0e4e5;height:86.4px;position:fixed;right:3%;top:50%;margin-top:-43.2px;width:43.2px;z-index:4}
 @media (max-width:640px){.widget{height:67.2px;margin-top:-33.6px;width:33.6px}
 }
+#hero .wrapper,.tables .table table tbody tr td.workshop div.row div h4{margin-top:24px}
 .widget .back-to-top,.widget .qrcode{color:#1F1D1D;cursor:pointer;text-decoration:none;display:block;height:43.2px;text-align:center;width:43.2px}
 .widget .back-to-top:before,.widget .qrcode:before{opacity:.7;font-size:20px;font-size:2rem;font-family:icons;content:'u';line-height:43.2px;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;transform-style:preserve-3d}
 @media (max-width:640px){.widget .back-to-top,.widget .qrcode{height:33.6px;width:33.6px}
@@ -295,7 +293,6 @@ form.subscription button{width:144px}
 .tables .table table tbody tr td.workshop div.row{background:#eef;text-align:center;-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;box-sizing:border-box;position:absolute;width:100%;height:100%;left:0;padding:24px;bottom:0;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;align-items:center}
 .tables .table table tbody tr td.workshop div.row:hover{background:#e9e9ff}
 .tables .table table tbody tr td.workshop div.row div{width:100%}
-.tables .table table tbody tr td.workshop div.row div h4{margin-top:24px}
 .tables .table table tbody tr td.workshop div.row div time{font-size:28px;font-size:2.8rem;font-weight:700}
 @media (max-width:640px){.tables .table table tbody tr td.workshop div.row div time{font-size:18px;font-size:1.8rem}
 }
@@ -304,9 +301,11 @@ form.subscription button{width:144px}
 .tables .table.day2 .workshop div.row{height:50%}
 .tables .table.day2 .workshop div.row:first-child{border-bottom:1px solid #e0e4e5;bottom:auto;top:0}
 #hero{box-sizing:border-box;height:100%}
-#hero .wrapper{margin-top:48px}
 #hero .wrapper .masthead{text-align:center}
-#hero .wrapper .masthead time{color:#EC008C;display:block;font-size:24px;font-size:2.4rem;font-weight:500;font-family:"Museo Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;margin-bottom:48px;text-transform:capitalize;width:100%}
+#hero .wrapper .masthead time{color:#EC008C;display:block;font-size:24px;font-size:2.4rem;font-weight:500;font-family:"Museo Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;margin-bottom:24px;text-transform:capitalize;width:100%}
+#hero .wrapper .masthead span.location{display:inline-block;width:100%;color:#EC008C;margin-bottom:36px}
+#hero .wrapper .masthead span.location a{color:#EC008C;-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out}
+#hero .wrapper .masthead span.location a:hover{border-bottom:1px solid #EC008C;text-decoration:none}
 #hero .wrapper .masthead a.button.tickets:before{font-family:icons;font-variant:normal;font-weight:400;speak:none;text-transform:none;-webkit-font-smoothing:antialiased;content:'t';color:rgba(255,255,255,.5);margin:2px 5px 2px 0}
 #hero .wrapper .masthead form.subscription label{font-size:16px;font-size:1.6rem;color:#1F1D1D;text-align:left}
 #hero .wrapper .masthead form.subscription p{display:none}
@@ -322,7 +321,7 @@ form.subscription button{width:144px}
 #schedule .wrapper{padding-top:120px;border-top:1px solid #e0e4e5;margin-top:0}
 #schedule .wrapper #sticky-wrapper{z-index:1;position:relative}
 #schedule .wrapper #sticky-wrapper .tabnav{background:rgba(255,255,255,.95);border-bottom:1px solid #e0e4e5}
-#schedule .wrapper .tabs{padding:24px 0;text-align:center}
+#schedule .wrapper .tabs{padding:12px 0;text-align:center}
 #schedule .wrapper .tabs h3{-webkit-transition:all .15s ease-in-out;-moz-transition:all .15s ease-in-out;transition:all .15s ease-in-out;cursor:pointer;color:#a1a1a1;display:inline-block;margin:6px 24px;width:auto}
 #about .wrapper .block.logos ul li a img,#sponsors .wrapper .list li a{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out}
 #schedule .wrapper .tabs h3.active{color:#2121FB;border-bottom:2px solid #2121FB}

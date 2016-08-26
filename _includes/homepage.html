@@ -3,6 +3,7 @@
     <div class='masthead'>
       <h1>{{ site.data.i18n[page.language].big_title }}</h1>
       <time>2016.10.15 - 10.16 @ {{ site.data.i18n[page.language].shanghai }}</time>
+      <span class='location'><img src='/dist/images/location.png' height='10'> <a href='http://j.map.baidu.com/H0Y5B' target='new'>{{ site.data.i18n[page.language].location }}</a> </span><br/>
       <!--       {% include subscription.html %} -->
       <a class='button primary tickets' href='http://www.bagevent.com/event/156568' target='new'>{{ site.data.i18n[page.language].get_tickets }}</a>
       <img src='/dist/images/masthead.png' class='img'>
@@ -21,16 +22,6 @@
         <a href='/convince-your-boss/' class='button secondary'>{{ site.data.i18n[page.language].cyb }}</a>{% endif %}
       </div>
     </div>
-    <!-- <div id='call-for-speakers'>
-      <img src='/dist/images/call-for-speakers.png'>
-      <div class='col'>
-        <h2>{{ site.data.i18n[page.language].call_for_speakers_and_workshops }}</h2>
-        <p>{{ site.data.i18n[page.language].call_for_speakers_p }}</p>
-        {% if page.language == 'cn' %}
-        <a href='/cn/call-for-speakers/' class='button secondary'>{{ site.data.i18n[page.language].join }}</a>{% else %}
-        <a href='/call-for-speakers/' class='button secondary'>{{ site.data.i18n[page.language].join }}</a>{% endif %}
-      </div>
-    </div> -->
     <div class='col-wrapper col-right'>
       <img src='/dist/images/call-for-sponsors.png?v'>
       <div class='col'>
@@ -45,7 +36,7 @@
 </section>
 <section id='schedule'>
   <div class='wrapper'>
-    <h2>{{ site.data.i18n[page.language].schedule }}</h2>
+    <h2 id='scheduletop'>{{ site.data.i18n[page.language].schedule }}</h2>
     <div class='tabnav'>
       <div class='tabs'>
         <h3 class='active'>Day 1 - 10.15</h3>

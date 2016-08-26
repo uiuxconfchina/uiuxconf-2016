@@ -2,7 +2,7 @@
   box-sizing: border-box;
   height: 100%;
   .wrapper {
-    margin-top: $space*2;
+    margin-top: $space;
     .masthead {
       text-align: center;
       time {
@@ -11,9 +11,23 @@
         @include font-size($large);
         font-weight: 500;
         font-family: $body;
-        margin-bottom: $space*2;
+        margin-bottom: $space;
         text-transform: capitalize;
         width: 100%;
+      }
+      span.location {
+        display: inline-block;
+        width: 100%;
+        color: $fushia;
+        margin-bottom: $space*1.5;
+        a {
+          color: $fushia;
+          @include transition(all 0.15s ease-in-out);
+          &:hover {
+            border-bottom: 1px solid $fushia; 
+            text-decoration: none;
+          }
+        }
       }
       a.button.tickets {
         &:before {
@@ -74,7 +88,7 @@
       }
     }
     .tabs {
-      padding: $space 0;
+      padding: $space/2 0;
       text-align: center;
       h3 {
         @include transition(all 0.15s ease-in-out);

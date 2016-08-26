@@ -1,7 +1,7 @@
 #header {
   @include transition(all 0.05s ease-in-out);
   box-sizing: border-box;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #fff;
   display: table;
   top: 0;
@@ -151,13 +151,14 @@
   }
   .ticket,
   .lang {
+    @include transition(all 0.05s ease-in-out);
     float: right;
   }
   .ticket {
     padding: $space/6 $space/2;
-    margin: 5px $space/3 5px $space/3;
+    margin: 5px $space/3;
     @include breakpoint(desktop) {
-      margin: $space/3 + 3 $space 0 0;
+      margin: $space/3 + 3 $space $space/3 + 3 0;
     }
   }
 }
@@ -188,22 +189,18 @@
       }
       .lang {
         line-height: 30px;
-        margin: $space/3;
-        @include breakpoint(mobile) {
-           margin: 5px $space/3;
-        }
-
+        margin: 5px 0;
       }
       .ticket {
         padding: $space/6 $space/2;
-        margin: 5px $space/3 5px $space/3;
+        margin: 3px $space/2;
       }
       .button.nav {
         padding: $space/6;
-        margin: 5px $space/3 5px $space/3;
+        margin: 5px $space/3;
       }
       #nav {
-        padding: 5px 0;
+        padding: 3px 0;
       }
     }
   }

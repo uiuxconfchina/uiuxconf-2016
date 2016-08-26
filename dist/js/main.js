@@ -15,7 +15,7 @@ function tab() {
     if ($(this).hasClass('active') == true) {
       return false;
     } else {
-      $("html,body").animate({ scrollTop: $("#schedule").offset().top }, 500);
+      $("html,body").animate({ scrollTop: $("#scheduletop").offset().top }, 500);
     }
     $(this).addClass('active').siblings('h3').removeClass('active');
     $('.tables > .table').eq(_index).show().animate({ 'opacity': 1, 'top': '0px' }, 500).siblings('.table').hide().css({ 'opacity': 0, 'top': '-8px' });
@@ -46,7 +46,7 @@ function sticky() {
     if (scrollTop > offset.top) {
       $(".tabnav").unstick();
     } else {
-      $(".tabnav").sticky({ topSpacing: 66, zIndex: 2, responsiveWidth: 1024 });
+      $(".tabnav").sticky({ topSpacing: 62, zIndex: 2, responsiveWidth: 1024 });
     }
   }
 
