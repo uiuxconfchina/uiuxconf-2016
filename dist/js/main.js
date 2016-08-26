@@ -58,18 +58,22 @@ function sticky() {
 }
 
 $(document).ready(function() {
-
   toggleMenu();
   tab();
   toggleModal();
   sticky();
-  $(window).resize(function() {
-    sticky();
-  })
+  var scrollTimer = null;
+  $(window).on('scroll', function() {
+    if (scrollTimer) {
+      clearTimeout(scrollTimer)
+    }
+    scrollTimer = setTimeout(function() {
+      sticky();
+    }, 400);
+  });
+
+
   $('.back-to-top').click(function() {
     $("html,body").animate({ scrollTop: $(body).offset().top }, 200);
   })
-  // $('.qrcode').blur(function() {
-  //   $(this).find('span').css({ 'opacity': 0, 'visibility': 'hidden', 'margin-right': '0px' });
-  // })
 })
