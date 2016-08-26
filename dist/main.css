@@ -5,7 +5,6 @@ legend,td,th{padding:0}
 .select,sub,sup{position:relative}
 .col-wrapper .col,.select:after,.widget .qrcode span{-webkit-transform:translateY(-50%)}
 .action,.button{text-align:center}
-#header .logo,#modal{-webkit-transition:all .1s ease-in-out}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -154,7 +153,7 @@ button.close:hover:before{opacity:.8}
 @font-face{font-family:'Museo Sans';src:url(/dist/fonts/museosans_500-webfont.eot);src:url(/dist/fonts/museosans_500-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museosans_500-webfont.woff) format("woff"),url(/dist/fonts/museosans_500-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_500-webfont.svg#Avenirltstd) format("svg");font-weight:500}
 @font-face{font-family:'Museo Sans';src:url(/dist/fonts/museosans_700-webfont.eot);src:url(/dist/fonts/museosans_700-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museosans_700-webfont.woff) format("woff"),url(/dist/fonts/museosans_300-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_300-webfont.svg#Nobel) format("svg");font-weight:700}
 @font-face{font-family:'Museo Slab';src:url(/dist/fonts/museoslab_300-webfont.eot);src:url(/dist/fonts/museoslab_300-webfont.eot?#iefix) format("embedded-opentype"),url(/dist/fonts/museoslab_300-webfont.woff) format("woff"),url(/dist/fonts/museoslab_300-webfont.ttf) format("truetype"),url(/dist/fonts/museosans_300-webfont.svg#Nobel) format("svg");font-weight:700}
-#modal{background:rgba(0,0,0,.8);opacity:0;visibility:hidden;width:100%;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
+#modal{background:rgba(0,0,0,.8);opacity:0;visibility:hidden;width:100%;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;z-index:100}
 #about .wrapper .block.logos ul li a img,#header #nav,.widget .back-to-top:before,.widget .qrcode:before{-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d}
 #modal .scroller{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;-webkit-box-pack:distribute;-moz-box-pack:distribute;box-pack:distribute;-webkit-justify-content:space-around;-moz-justify-content:space-around;-ms-justify-content:space-around;-o-justify-content:space-around;justify-content:space-around;-ms-flex-pack:distribute;bottom:0;right:0}
 #modal .scroller .container{min-height:0}
@@ -202,24 +201,24 @@ button.close:hover:before{opacity:.8}
 #header #nav .box a{margin:0 1%}
 }
 #header .lang,#header .logo{display:block;position:relative;z-index:1}
-#header .logo{float:left;width:84px;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+#header .logo{float:left;width:84px;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 #header .logo img{float:left;width:100%}
 @media (min-width:1024px){#header .logo{margin-top:0;width:120px}
 }
 #header .lang{line-height:30px;margin:5px 8px}
 @media (min-width:1024px){#header .lang{line-height:56px;margin:0}
 }
-#header .lang,#header .ticket{float:right}
+#header .lang,#header .ticket{-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out;float:right}
 #header .ticket{padding:4px 12px;margin:5px 8px}
 .menu-open #header #nav{visibility:visible;opacity:1}
-@media (min-width:1024px){#header .ticket{margin:11px 24px 0 0}
+@media (min-width:1024px){#header .ticket{margin:11px 24px 11px 0}
 .menu-open #header #nav{visibility:hidden;opacity:0}
 }
 #header-sticky-wrapper{position:absolute;width:100%;top:0;left:0}
 #header-sticky-wrapper.is-sticky #header{border-bottom:1px solid #e0e4e5;padding:10px 3%;background:rgba(255,255,255,.95);position:relative;z-index:1}
 #header-sticky-wrapper.is-sticky #header .logo{width:84px}
-#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:5px 8px}
-#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:3px 8px 5px}
+#header-sticky-wrapper.is-sticky #header .lang{line-height:30px;margin:5px 0}
+#header-sticky-wrapper.is-sticky #header .ticket{padding:4px 12px;margin:3px 12px}
 #header-sticky-wrapper.is-sticky #header .button.nav{padding:4px;margin:5px 8px}
 #header-sticky-wrapper.is-sticky #header #nav{padding:3px 0}
 #footer{display:inline-block;background:#0000B8;text-align:center;width:100%}
