@@ -83,9 +83,6 @@
         display: inline-block;
         margin: $space/4 $space;
         width: auto;
-        @include breakpoint(mobile) {
-          margin: $space/4 $space/3;
-        }
         &.active {
           color: $navy;
           border-bottom: 2px solid $navy;
@@ -98,6 +95,12 @@
         // }
         &:hover {
           color: $navy;
+        }
+      }
+      @include breakpoint(mobile) {
+        padding: $space/2 0;
+        h3 {
+          margin: $space/4 $space/3;
         }
       }
     }

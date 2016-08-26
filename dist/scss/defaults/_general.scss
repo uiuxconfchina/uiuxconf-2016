@@ -15,10 +15,10 @@ body {
   position: relative;
   letter-spacing: 0.3px;
   @include font-size($normal);
-    padding-top: $space*2;
-    margin: 0;
+  padding-top: 66px;
+  margin: 0;
   @include breakpoint(desktop) {
-    padding-top: $space*5;
+    padding-top: 108px;
   }
 }
 
