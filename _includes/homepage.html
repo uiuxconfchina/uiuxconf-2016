@@ -3,7 +3,8 @@
     <div class='masthead'>
       <h1>{{ site.data.i18n[page.language].big_title }}</h1>
       <time>2016.10.15 - 10.16 @ {{ site.data.i18n[page.language].shanghai }}</time>
-      <span class='location'><img src='/dist/images/location.png' height='10'> <a href='http://j.map.baidu.com/H0Y5B' target='new'>{{ site.data.i18n[page.language].location }}</a> </span><br/>
+      <span class='location'><img src='/dist/images/location.png' height='10'> <a href='http://j.map.baidu.com/H0Y5B' target='new'>{{ site.data.i18n[page.language].location }}</a> </span>
+      <br/>
       <!--       {% include subscription.html %} -->
       <a class='button primary tickets' href='http://www.bagevent.com/event/156568' target='new'>{{ site.data.i18n[page.language].get_tickets }}</a>
       <img src='/dist/images/masthead.png' class='img'>
@@ -58,7 +59,7 @@
             <tr class='keynote'>
               <td class='time'>9:40 <i>AM</i></td>
               <td colspan='2'>
-                <h4>Designing for and with data</h4>
+                <h4>Designing for and with Data</h4>
                 <span>Ronan Berder</span>
                 <em>Wiredcraft</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -80,7 +81,7 @@
             <tr class='keynote'>
               <td class='time'>10:40 <i>AM</i></td>
               <td colspan='2'>
-                <h4>How storytelling can improve the way you design</h4>
+                <h4>How Storytelling Can Improve the Way You Design</h4>
                 <span>Mauricio Estrella</span>
                 <em>Stackray</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -89,7 +90,7 @@
             <tr class='keynote cn'>
               <td class='time'>11 <i>AM</i></td>
               <td colspan='2'>
-                <h4>Emotional design and marketing of mobile products<br/>移动产品情感化设计与营销</h4>
+                <h4>Emotional Design and Marketing of Mobile Products<br/>移动产品情感化设计与营销</h4>
                 <span>张酉麟（小火）Youlin Zhang</span>
                 <em>UC browser</em>
                 <samp>{{ site.data.i18n[page.language].cntip }}</samp>
@@ -110,7 +111,7 @@
             <tr class='keynote'>
               <td class='time'>13:30 <i>PM</i></td>
               <td colspan='1'>
-                <h4>Innovation capability</h4>
+                <h4>Innovation Capability</h4>
                 <span>Kyle lin</span>
                 <em>Continuum</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -152,7 +153,7 @@
             <tr class='keynote'>
               <td class='time'>14:40 <i>PM</i></td>
               <td colspan='1'>
-                <h4>How designers transform organisations</h4>
+                <h4>How Designers Transform Organisations</h4>
                 <span>Franco Papeschi</span>
                 <em>frog</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -161,7 +162,7 @@
             <tr class='keynote'>
               <td class='time'>15 <i>PM</i></td>
               <td colspan='1'>
-                <h4>What food can teach us about design</h4>
+                <h4>What Food Can Teach us about Design</h4>
                 <span>Anh Hoang</span>
                 <em>Dyad</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -240,7 +241,7 @@
             <tr class='keynote'>
               <td class='time'>10 <i>AM</i></td>
               <td colspan='2'>
-                <h4>From User Experience to Design Thinking inside a big corporation</h4>
+                <h4>From User Experience to Design Thinking inside a Big Corporation</h4>
                 <span>Dominic Winkler</span>
                 <em>Bosch UX</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -253,7 +254,7 @@
             <tr class='keynote'>
               <td class='time'>10:40 <i>AM</i></td>
               <td colspan='2'>
-                <h4>Choice Architectures - The design of transformative choices</h4>
+                <h4>Choice Architectures - The Design of Transformative Choices</h4>
                 <span>Siddharta Lizcano</span>
                 <em>Publicis, Sapient, Razorfish</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -262,7 +263,7 @@
             <tr class='keynote'>
               <td class='time'>11 <i>AM</i></td>
               <td colspan='2'>
-                <h4>Fun and Contemporaty Design</h4>
+                <h4>Fun and Contemporary Design</h4>
                 <span>Patrick Rockwell</span>
                 <em>W+K</em>
                 <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -283,7 +284,7 @@
             <tr class='keynote cn'>
               <td class='time'>13:30 <i>PM</i></td>
               <td colspan='2'>
-                <h4>Creating customer journeys and personas for innovation projects<br/>CJM和PERSONA在企业创新项目中的应用与变化</h4>
+                <h4>Creating Customer Journeys and Personas for Innovation Projects<br/>CJM和PERSONA在企业创新项目中的应用与变化</h4>
                 <span>肖又歌</span>
                 <em>frog</em>
                 <samp>{{ site.data.i18n[page.language].cntip }}</samp>
@@ -342,7 +343,7 @@
             <tr class='keynote cn'>
               <td class='time'>15 <i>PM</i></td>
               <td colspan='1'>
-                <h4>看见未必洞见 Embrace China market with an open mindset</h4>
+                <h4>看见未必洞见：Engaging CEOs to Innovate by Design</h4>
                 <span>Jenny Yang</span>
                 <em>CBi</em>
                 <samp>{{ site.data.i18n[page.language].cntip }}</samp>
@@ -401,48 +402,86 @@
     <ul class='list'>
       {% for speaker in site.speakers %} {% if speaker.talk == 'keynote' %} {% if speaker.featured %}
       <li>
-        <img src='/dist/images/speakers/{{ speaker.user }}.jpg?'>
-        <div>
-          <h5>{{ speaker.title }}</h5>
-          <span>{{ speaker.position }}</span>
-          <br/>
-          <em>{{ speaker.company }}</em>
+        <div class='wrap'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <div class='info'>
+            <h5>{{ speaker.title }}</h5>
+            <span>{{ speaker.position }}</span>
+            <br/>
+            <em>{{ speaker.company }}</em>
+          </div>
+        </div>
+        <div class='bio'>
+          <p>{{ speaker.bio }}</p>
         </div>
       </li>
       {% endif %} {% endif %} {% endfor %}
-      <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3> {% for speaker in site.speakers %} {% if speaker.talk == 'workshop' %} {% if speaker.featured %}
+    </ul>
+    <h3>{{ site.data.i18n[page.language].workshop_speakers }}</h3>
+    <ul class='list'>
+      {% for speaker in site.speakers %} {% if speaker.talk == 'workshop' %} {% if speaker.featured %}
       <li>
-        <img src='/dist/images/speakers/{{ speaker.user }}.jpg?'>
-        <div>
-          <h5>{{ speaker.title }}</h5>
-          <span>{{ speaker.position }}</span>
-          <br/>
-          <em>{{ speaker.company }}</em>
+        <div class='wrap'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <div class='info'>
+            <h5>{{ speaker.title }}</h5>
+            <span>{{ speaker.position }}</span>
+            <br/>
+            <em>{{ speaker.company }}</em>
+          </div>
+        </div>
+        <div class='bio'>
+          <p>{{ speaker.bio }}</p>
         </div>
       </li>
       {% endif %} {% endif %} {% endfor %}
-      <h3>{{ site.data.i18n[page.language].moderators }}</h3>
+    </ul>
+    <h3>{{ site.data.i18n[page.language].moderators }}</h3>
+    <ul class='list'>
       {% for speaker in site.speakers %} {% if speaker.talk == 'moderator' %} {% if speaker.featured %}
       <li>
-        <img src='/dist/images/speakers/{{ speaker.user }}.jpg?'>
-        <div>
-          <h5>{{ speaker.title }}</h5>
+        <div class='wrap'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <div class='info'>
+            <h5>{{ speaker.title }}</h5>
+          </div>
         </div>
       </li>
       {% endif %} {% endif %} {% endfor %}
-<!--       <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p> -->
+    </ul>
+    <!--       <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p> -->
     </ul>
   </div>
 </section>
 <section id='sponsors'>
   <div class='wrapper'>
-    <!--     <h2>{{ site.data.i18n[page.language].sponsors }}</h2> -->
+    <h2>{{ site.data.i18n[page.language].sponsors }}</h2>
+    <h3>{{ site.data.i18n[page.language].silver_sponsor }}</h3>
+    <ul class='list silver'>
+      {% for sponsors in site.sponsors %} {% if sponsors.type == 'silver' %} {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
+    <h3>{{ site.data.i18n[page.language].bronze_sponsor }}</h3>
+    <ul class='list bronze'>
+      {% for sponsors in site.sponsors %} {% if sponsors.type == 'bronze' %} {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
     <h3>{{ site.data.i18n[page.language].medias }}</h3>
     <ul class='list'>
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'media' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0826'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -452,7 +491,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'special' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0826'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}

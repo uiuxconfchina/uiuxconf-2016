@@ -8,7 +8,8 @@
       time {
         color: $fushia;
         display: block;
-        @include font-size($large);
+        @include font-size($large + 2);
+        line-height: 120%;
         font-weight: 500;
         font-family: $body;
         margin-bottom: $space;
@@ -22,9 +23,10 @@
         margin-bottom: $space*1.5;
         a {
           color: $fushia;
+          border-bottom: 1px solid transparent;
           @include transition(all 0.15s ease-in-out);
           &:hover {
-            border-bottom: 1px solid $fushia; 
+            border-bottom: 1px solid $fushia;
             text-decoration: none;
           }
         }
@@ -136,45 +138,111 @@
     h3 {
       text-align: center;
       margin-bottom: $space*2;
+      margin-top: $space*2;
+      &:first-child {
+        margin-top: 0;
+      }
     }
     .list {
       text-align: center;
       margin: 0;
       li {
+        cursor: pointer;
         position: relative;
         display: inline-block;
         list-style: none;
-        width: 200px;
+        width: 180px;
         height: 290px;
         margin: $space/2 $space/2 $space/2;
         @include breakpoint(desktop) {
           height: 320px;
-          margin: $space/2 $space/2 $space;
+          margin: $space/2 2% $space;
         }
         img {
-          max-width: 160px;
+          @include transition(all 0.2s ease-in-out);
+          @include transform-origin(center center);
+          max-width: 150px;
           border-radius: 50%;
+          position: absolute;
+          left: 50%;
+          margin-left: -75px;
+          top: 0px;
         }
         div {
-          left: 0;
-          position: absolute;
-          top: 180px;
-          width: 100%;
-          @include breakpoint(desktop) {
-            top: 190px;
+          &.wrap {
+            cursor: pointer;
+            position: relative;
+            display: inline-block;
+            @include transition(background-color 0.3s, color 0.3s, ease-in-out 0.3s);
+            // -webkit-transition: background-color 0.3s, color 0.3s, -webkit-transform 0.3s;
+            // transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            padding-top: 150px;
+            width: 100%;
           }
-          span {
-            color: darken($grey, 30%);
-            @include font-size($small);
+          &.info {
+            left: 0;
+            position: absolute;
+            top: 170px;
+            width: 100%;
             @include breakpoint(desktop) {
-              @include font-size($smaller)
+              top: 180px;
+            }
+            span {
+              color: darken($grey, 30%);
+              @include font-size($small + 1);
+              @include breakpoint(desktop) {
+                @include font-size($smaller)
+              }
+            }
+            em {
+              color: lighten($grey, 10%);
+              @include font-size($small + 1);
+              @include breakpoint(desktop) {
+                @include font-size($smaller)
+              }
             }
           }
-          em {
-            color: lighten($grey, 10%);
-            @include font-size($small);
-            @include breakpoint(desktop) {
-              @include font-size($smaller)
+          &.bio {
+            display: none;
+            box-sizing: border-box;
+            position: absolute;
+            z-index: 1;
+            width: 340px;
+            left: 50%;
+            margin-left: -170px;
+            top: -30px;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid $line;
+            opacity: 0;
+            line-height: 1.5;
+            padding: 350px 0 0;
+            cursor: default;
+            pointer-events: none;
+            border-radius: 5px;
+            @include transform(translate3d(0, -0.5em, 0));
+            @include transition(opacity 0.3s, transform 0.3s);
+            @include breakpoint(mobile) {
+              width: 300px;
+              margin-left: -150px;
+            }
+            p {
+              border-top: 1px solid $line;
+              padding: $space;
+            }
+          }
+        }
+        &:hover {
+          div {
+            &.wrap {
+              color: #fff;
+              //@include transform(translate3d(0, -0.5em, 0));
+              z-index: 2;
+            }
+            &.bio {
+              pointer-events: auto;
+              opacity: 1;
+              @include transform(translate3d(0, 0, 0));
             }
           }
         }
@@ -188,6 +256,9 @@
     margin-top: 0;
     padding-top: 120px;
     border-top: 1px solid $line;
+    h3 {
+      text-align: center;
+    }
     .list {
       margin: 0 0 $space*2 0;
       text-align: center;
@@ -196,15 +267,15 @@
         display: inline-block;
         list-style: none;
         height: 140px;
-        margin: 0 $space;
+        margin: 0 $space*1.5;
         a {
           display: table-cell;
           height: 140px;
           vertical-align: middle;
           @include transition(all 0.1s ease-in-out);
           img {
-            max-width: 160px;
-            max-height: 90px;
+            max-width: 140px;
+            max-height: 80px;
           }
           &:hover {
             opacity: 0.85;
@@ -228,9 +299,22 @@
         li {
           a {
             img {
-              max-width: 200px;
-              max-height: 110px;
+              max-width: 160px;
+              max-height: 90px;
             }
+          }
+        }
+      }
+      &.silver {
+        li {
+          a {
+            img {
+              max-width: 220px;
+              max-height: 100px;
+            }
+          }
+          @include breakpoint(mobile) {
+            margin: 0 10px;
           }
         }
       }

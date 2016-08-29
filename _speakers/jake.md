@@ -1,7 +1,7 @@
 ---
 user: jake
 title: Jake Fowler
-position: Senior User Experience Designer
+position: Senior UX Designer
 company: Autodesk
 featured: true
 talk: keynote

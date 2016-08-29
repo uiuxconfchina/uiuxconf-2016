@@ -44,6 +44,9 @@ h6 {
   letter-spacing: 1.5px;
   margin: 0 0 $space;
 }
+h2 {
+  margin: 0 0 $space*2;
+}
 
 h3 {
   @include font-size($large);
