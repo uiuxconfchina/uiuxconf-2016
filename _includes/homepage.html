@@ -403,7 +403,7 @@
       {% for speaker in site.speakers %} {% if speaker.talk == 'keynote' %} {% if speaker.featured %}
       <li>
         <div class='wrap'>
-          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0828'>
           <div class='info'>
             <h5>{{ speaker.title }}</h5>
             <span>{{ speaker.position }}</span>
@@ -422,7 +422,7 @@
       {% for speaker in site.speakers %} {% if speaker.talk == 'workshop' %} {% if speaker.featured %}
       <li>
         <div class='wrap'>
-          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0828'>
           <div class='info'>
             <h5>{{ speaker.title }}</h5>
             <span>{{ speaker.position }}</span>
@@ -441,7 +441,7 @@
       {% for speaker in site.speakers %} {% if speaker.talk == 'moderator' %} {% if speaker.featured %}
       <li>
         <div class='wrap'>
-          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0827'>
+          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0828'>
           <div class='info'>
             <h5>{{ speaker.title }}</h5>
           </div>
@@ -461,7 +461,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'gold' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=08281'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=08282'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -471,7 +471,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'silver' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -481,17 +481,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'bronze' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
-        </a>
-      </li>
-      {% endif %} {% endif %} {% endfor %}
-    </ul>
-    <h3>{{ site.data.i18n[page.language].medias }}</h3>
-    <ul class='list'>
-      {% for sponsors in site.sponsors %} {% if sponsors.type == 'media' %} {% if sponsors.featured %}
-      <li>
-        <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -501,7 +491,17 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'special' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
+    <h3>{{ site.data.i18n[page.language].medias }}</h3>
+    <ul class='list'>
+      {% for sponsors in site.sponsors %} {% if sponsors.type == 'media' %} {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
