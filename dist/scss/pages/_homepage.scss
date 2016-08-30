@@ -305,7 +305,7 @@
           }
         }
       }
-      &.gold {
+      &.silver {
         li {
           a {
             img {
@@ -318,12 +318,12 @@
           }
         }
       }
-      &.silver {
+      &.gold {
         li {
           a {
             img {
               max-width: 220px;
-              max-height: 100px;
+              max-height: 110px;
             }
           }
           @include breakpoint(mobile) {
