@@ -1,7 +1,7 @@
 ---
 user: jenny
 title: Jenny Yang
-position: Director of Innovation, Strategy & Design
+position: Director, Innovation Strategy & Design
 company: CBi
 featured: true
 talk: keynote

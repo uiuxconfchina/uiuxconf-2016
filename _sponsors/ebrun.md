@@ -1,6 +1,6 @@
 ---
-user: gdg
-link: http://chinagdg.org/
-featured: true
+user: ebrun
+link: http://www.ebrun.com/
+featured: false
 type: media
 ---
