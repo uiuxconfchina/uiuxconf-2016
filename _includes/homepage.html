@@ -456,6 +456,16 @@
 <section id='sponsors'>
   <div class='wrapper'>
     <h2>{{ site.data.i18n[page.language].sponsors }}</h2>
+    <h3>{{ site.data.i18n[page.language].gold_sponsor }}</h3>
+    <ul class='list gold'>
+      {% for sponsors in site.sponsors %} {% if sponsors.type == 'gold' %} {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0827'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
     <h3>{{ site.data.i18n[page.language].silver_sponsor }}</h3>
     <ul class='list silver'>
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'silver' %} {% if sponsors.featured %}
