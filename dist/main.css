@@ -364,8 +364,8 @@ form.subscription button{width:144px}
 #sponsors .wrapper .list li a img{max-width:140px;max-height:80px}
 #sponsors .wrapper .list li a:hover{opacity:.85}
 #sponsors .wrapper .list.specials li a img{max-width:160px;max-height:90px}
-#sponsors .wrapper .list.silver li a img{max-width:220px;max-height:100px}
-@media (max-width:640px){#sponsors .wrapper .list.silver li{margin:0 10px}
+#sponsors .wrapper .list.gold li a img,#sponsors .wrapper .list.silver li a img{max-width:220px;max-height:100px}
+@media (max-width:640px){#sponsors .wrapper .list.gold li,#sponsors .wrapper .list.silver li{margin:0 10px}
 }
 #about .wrapper{margin-top:0}
 #about .wrapper .block{display:inline-block;margin-top:96px;width:100%}
