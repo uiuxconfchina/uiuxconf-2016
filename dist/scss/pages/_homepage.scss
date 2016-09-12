@@ -562,3 +562,11 @@
     }
   }
 }
+
+
+.notification {
+  box-sizing: border-box;
+  background: $yellow;
+  width: 100%;
+  padding: $space;
+}

@@ -104,9 +104,11 @@ en:
     featured_brands: Featured Brands
     meet_our_attendees: Meet our Attendees
     startups: Startups
+    alert: 官方声明：本次活动为付费活动，以官网 <a href='http://2016.uiuxconf.com'>http://2016.uiuxconf.com</a> 售票链接为准，百格网为唯一合作售票平台。会议需要相关票务凭证方可入场参加，请勿随意在第三方平台购票登记，谨防信息透露及财产安全，再次感谢。
+    naming_standards: Naming Standards
 
 cn:
-    big_title: 2016 中国交互与界面设计大会
+    big_title: 2016中国交互与界面设计大会
     call_for_speakers: 成为讲师
     call_for_speakers_and_workshops: 成为讲师
     call_for_sponsors: 成为赞助商
@@ -204,6 +206,7 @@ cn:
     featured_brands: 参会公司
     startups: 参会创业公司
     meet_our_attendees: 参会者
-
+    alert: 官方声明：本次活动为付费活动，以官网 <a href='http://2016.uiuxconf.com'>http://2016.uiuxconf.com</a> 售票链接为准，百格网为唯一合作售票平台。会议需要相关票务凭证方可入场参加，请勿随意在第三方平台购票登记，谨防信息透露及财产安全，再次感谢。
+    naming_standards: 命名标准
 
 
