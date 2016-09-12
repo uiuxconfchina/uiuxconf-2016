@@ -17,6 +17,8 @@ collections:
     output: false
   workshop:
     output: false
+  attendees:
+    output: false
 
 
 # Plugins

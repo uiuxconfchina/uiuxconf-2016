@@ -1,6 +1,6 @@
 ---
 user: brandon
-title: Bradon Owens
+title: Brandon Owens
 featured: true
 talk: moderator
 ---

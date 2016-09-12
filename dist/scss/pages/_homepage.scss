@@ -2,13 +2,13 @@
   box-sizing: border-box;
   height: 100%;
   .wrapper {
-    margin-top: $space;
+    margin-top: $space*1.5;
     .masthead {
       text-align: center;
       time {
         color: $fushia;
         display: block;
-        @include font-size($large + 2);
+        @include font-size($large + 4);
         line-height: 120%;
         font-weight: 500;
         font-family: $body;
@@ -58,11 +58,11 @@
     }
     .img {
       display: block;
-      margin: $space*2 auto 0;
+      margin: $space auto 0;
       width: 100%;
       @include breakpoint(desktop) {
         max-width: $wrapper;
-        margin: $space auto 0;
+        margin: 0 auto;
       }
     }
   }
@@ -75,7 +75,7 @@
     }
   }
 }
-
+/* schedule */
 #schedule {
   .wrapper {
     padding-top: 120px;
@@ -129,7 +129,7 @@
     }
   }
 }
-
+/* speakers */
 #speakers {
   .wrapper {
     margin-top: 0;
@@ -250,7 +250,7 @@
     }
   }
 }
-
+/* sponsors */
 #sponsors {
   .wrapper {
     margin-top: 0;
@@ -334,7 +334,16 @@
     }
   }
 }
-
+/* attendees */
+#attendees {
+  .featured,.startups {
+    padding-bottom: 27px;
+  }
+  .featured {
+    margin-bottom: $space;
+  }
+}
+/* about */
 #about {
   .wrapper {
     margin-top: 0;

@@ -4,6 +4,7 @@ en:
     call_for_speakers_and_workshops: Call For Speakers and Workshops
     call_for_sponsors: Call For Sponsors
     sponsors: Sponsors
+    already_in_love_with_us: Already in Love with us
     some_sponsors: Some of our Sponsors
     specials: Special Sponsors
     about: About
@@ -93,7 +94,16 @@ en:
     <strong>Subject:</strong>  UI/UX Conf China 2016 will benefit our design team<br/></div>
     <div class='article'>Dear El Jefe, <br/><br/>
     <p>Design is our company's heart and soul. We know the importance that design makes in our everyday workflow and our products and how it's an ever-evolving field.  In support of our company's commitment to design, I think we should sponsor our team's attendance at UI/UX Conf China on October 15th-16th in Shanghai (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>).</p><p>UI/UX Conf is a nonprofit, community-driven conference that focuses on bringing together designers of all disciplines to share in knowledge and community. The conference was born from the UI/UX Designers Meetup in Shanghai and has the strong support of the design community.</p> <p>I believe our company would benefit from our designers' attendance for the following reasons:</p> <ol><li>This conference is a chance to hear from respected designers from all over the world, sharing what they do at their companies</li><li>We'll have the chance to interact with designers from companies like Google, Facebook, frog, Autodesk, Netflix, Mc Donald's, etc  to have success design processes</li><li>This is an opportunity to build a network for recruitment and generating leads</li><li>The price point is awesome - at 600RMB for group deal, it's a steal compared to other conferences in the Asia-Pacific region</li><li>The design team will come back inspired and will learn from the community, bringing back new ideas to the team</li><li>A trip to such an awesome conference will offer us a chance to relax and refresh and return ready to great work</li><li>We should take advantage of this great opportunity to meet designers in the greater Asian community. </li><li>We can take advantage of the early bird discount, or look into the group rates (5 or more at 600 RMB each) offered here. <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>Best Regards, <br/>Your Dazzling Designer</p></div></div>"
-
+    mediapress: Media & Press
+    mediacontact_title: Contact
+    mediacontact_p: <p>Wiredcrafters for UI/UX Conf China<br/>(+86)021-52047028<br/><a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a><br><a href='https://wiredcraft.com'>wiredcraft.com</a></p>
+    press_material: Press Material
+    uiuxconf_logo: UI/UX Conf logos
+    press_kit: Press Kit
+    meetups: Meetups Pictures
+    featured_brands: Featured Brands
+    meet_our_attendees: Meet our Attendees
+    startups: Startups
 
 cn:
     big_title: 2016 中国交互与界面设计大会
@@ -101,6 +111,7 @@ cn:
     call_for_speakers_and_workshops: 成为讲师
     call_for_sponsors: 成为赞助商
     sponsors: 赞助商
+    already_in_love_with_us: 赞助商
     some_sponsors: 我们的一些赞助商
     specials: 特别赞助
     about: 关于我们
@@ -183,6 +194,16 @@ cn:
     <div class='article'>
     嗨老板！ <br/><br/>
     <p>设计一直是我们公司的灵魂及核心所在。我们了解设计在我们每日工作流程及产品设计中的举足轻重，并且清楚这是一个永远在变化和进步的领域。为了表示我们公司对于设计的重视，我认为我们应该支持我们的团队去参加上海10月15-16日的UI/UX Conf China 2016 (<a href='http://2016.uiuxconf.com/' target='new'>http://2016.uiuxconf.com</a>)。</p><p>UI/UX Conf China是一个专注于服务设计社区，致力于分享各领域设计师知识技能，主导并提供设计师们的交流机会的非营利性质的大会。这个会议起源于上海的UI/UX 设计师线下聚会，并且获得了强大的设计社区支持。</p> <p>我相信我们公司将从本次参会中获得：</p> <ol><li>这次大会提供给我们聆听全世界优秀设计师们的演讲的机会，并且了解到不同的公司如何工作。</li><li>我们会有机会和来自谷歌, Facebook, frog, Autodesk, Netflix, 麦当劳等演讲嘉宾交流互动，并学习他们成功的设计流程；</li><li>这是一个很好的建立人脉网络的机会，由此我们也有机会招聘或找到业务需求；</li><li>大会票价很实惠，团体票只需要600元，和其他亚太地区的同等大会相比太合算了；</li><li>我们的设计团队在能在大会中及从这个设计圈中学习到很多，并且激发灵感，给团队带回新的血液；</li><li>大会的两天会让我们有机会从平日的工作调整状态，整理好自己，并且准备好会后投入到工作当中去；</li><li>我们应该抓住了解亚洲设计社区的绝佳机会，同时我们可以开始抢购早鸟票及团队票了，链接 - <a href='http://www.bagevent.com/event/156568' target='new'>http://www.bagevent.com/event/156568</a> </li></ol><p>祝好，<br/>你出色的设计师</p></div></div>"
+    mediapress: 媒体 & 宣传
+    mediacontact_title: 联系方式
+    mediacontact_p: <p>Wiredcraft UI/UX Conf 团队 <br/>(+86)021-52047028<br/><a href='mailto:info@uiuxconf.com'>info@uiuxconf.com</a><br><a href='https://wiredcraft.com'>wiredcraft.com</a></p>
+    press_material: 宣传素材
+    uiuxconf_logo: 大会logo
+    press_kit: 宣传资料包
+    meetups: 线下聚会图片
+    featured_brands: 参会公司
+    startups: 参会创业公司
+    meet_our_attendees: 参会者
 
 
 

@@ -4,10 +4,6 @@
 
 @import '_variables';
 
-/* 3rd parties */
-
-@import 'vendors/_normalize';
-
 /* Mixins & Extends */
 
 @import 'modules/_typography';
@@ -17,6 +13,14 @@
 @import 'modules/_form';
 @import 'modules/_button';
 @import 'modules/_responsive';
+
+/* 3rd parties */
+
+@import 'vendors/_normalize';
+@import 'vendors/_slick-theme';
+@import 'vendors/_slick';
+
+
 
 /* Styles */
 

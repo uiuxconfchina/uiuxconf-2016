@@ -44,8 +44,9 @@ h6 {
   letter-spacing: 1.5px;
   margin: 0 0 $space;
 }
+
 h2 {
-  margin: 0 0 $space*2;
+  margin: 0 0 $space;
 }
 
 h3 {
@@ -56,6 +57,7 @@ h3 {
 }
 
 h1 {
+  @include font-size($gigantic - 2);
   @include breakpoint(mobile) {
     @include font-size($huge + 2);
   }
@@ -90,6 +92,9 @@ ol {
 
 input {
   -webkit-appearance: none;
+}
+input[type='email'] {
+  line-height: 25px;
 }
 
 small {

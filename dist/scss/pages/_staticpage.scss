@@ -2,6 +2,12 @@
   .wrapper:first-child {
     margin-top: $space*2;
   }
+  h1 {
+    @include font-size($gigantic - 8);
+    @include breakpoint(mobile) {
+      @include font-size($huge - 2);
+    }
+  }
   h2 {
     margin-top: $space*3.5;
   }
@@ -125,7 +131,6 @@
     border-radius: $radius;
     border: 1px solid $navy;
     color: $navy;
-    
     word-wrap: break-word;
     .hr {
       padding: $space;
