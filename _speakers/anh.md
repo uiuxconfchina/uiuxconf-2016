@@ -2,7 +2,7 @@
 user: anh
 title: Anh Hoang
 position: Director of Special Projects
-company: Dyad
+company: Dyad / RisingVietnam
 featured: true
 talk: keynote
 

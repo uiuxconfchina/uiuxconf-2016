@@ -2,13 +2,13 @@
   box-sizing: border-box;
   height: 100%;
   .wrapper {
-    margin-top: $space*1.5;
+    margin-top: $space;
     .masthead {
       text-align: center;
       time {
         color: $fushia;
         display: block;
-        @include font-size($large + 4);
+        @include font-size($large + 3);
         line-height: 120%;
         font-weight: 500;
         font-family: $body;

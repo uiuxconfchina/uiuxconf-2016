@@ -1,5 +1,5 @@
 ---
-user: karlen
+user: karlenc
 title: Karlen Chang
 position: Creative Director & Co-Founder
 company: mixMotion
