@@ -105,8 +105,6 @@ html{font-size:50%}
 @media (min-width:1024px){html{font-size:62.5%}
 }
 body{color:#353434;letter-spacing:.3px;font-size:1.6rem;padding-top:66px;margin:0}
-@media (min-width:1024px){body{padding-top:108px}
-}
 a{cursor:pointer;color:#2121FB;text-decoration:none;-webkit-transition-property:color;-moz-transition-property:color;transition-property:color;-moz-transition-duration:.2s;transition-duration:.2s}
 a:hover{color:#1e1ee2;text-decoration:underline}
 h1,h2,h3,h4,h5,h6{color:#1F1D1D;letter-spacing:1.5px;margin:0 0 24px}
@@ -121,7 +119,10 @@ ol,ul{margin:0 0 24px 24px;padding:0}
 ol li,ul li{padding:0 0 12px}
 blockquote>:last-child,ol ol,ol ul,ul ol,ul ul{margin-bottom:0}
 ol ol li,ol ul li,ul ol li,ul ul li{padding:12px 0 0}
+input[type=email]{line-height:20px}
+@media (min-width:1024px){body{padding-top:108px}
 input[type=email]{line-height:25px}
+}
 small{font-size:12px;font-size:1.2rem}
 blockquote{border-left:6px solid #ecf0f1;color:#797777;margin:0 24px 24px;padding-left:24px}
 .wrapper{box-sizing:border-box;margin:120px auto;max-width:1200px;width:80%}
