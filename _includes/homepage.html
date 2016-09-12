@@ -366,7 +366,7 @@
               <td colspan='1'>
                 Panel Talk 讲师问答
                 <br/>
-                <span>(Siddharta Lizcano，Ge Jin 金葛，Michael Headrick，Jenny Yang, Youge Xiao 肖又歌)</span>
+                <span>(Siddharta Lizcano，Michael Headrick，Jenny Yang, Youge Xiao 肖又歌)</span>
                 <i class='moderator'>Moderator 主持: Brandon Owens</i>
               </td>
             </tr>
@@ -415,16 +415,20 @@
       {% for speaker in site.speakers %} {% if speaker.talk == 'keynote' %} {% if speaker.featured %}
       <li>
         <div class='wrap'>
-          <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0828'>
-          <div class='info'>
-            <h5>{{ speaker.title }}</h5>
-            <span>{{ speaker.position }}</span>
-            <br/>
-            <em>{{ speaker.company }}</em>
-          </div>
+          <a href='{{ speaker.sns }}' target='new'>
+            <img src='/dist/images/speakers/{{ speaker.user }}.jpg?v=0828'>
+            <div class='info'>
+              <h5>{{ speaker.title }}</h5>
+              <span>{{ speaker.position }}</span>
+              <br/>
+              <em>{{ speaker.company }}</em>
+            </div>
+          </a>
         </div>
         <div class='bio'>
-          <p>{{ speaker.bio }}</p>
+          <p>
+            {% if page.language == 'cn' %} {{ speaker.biocn }} {% else %} {{ speaker.bio }} {% endif %}
+          </p>
         </div>
       </li>
       {% endif %} {% endif %} {% endfor %}

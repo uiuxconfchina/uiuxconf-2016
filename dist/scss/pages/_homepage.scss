@@ -75,7 +75,10 @@
     }
   }
 }
+
+
 /* schedule */
+
 #schedule {
   .wrapper {
     padding-top: 120px;
@@ -129,7 +132,10 @@
     }
   }
 }
+
+
 /* speakers */
+
 #speakers {
   .wrapper {
     margin-top: 0;
@@ -169,6 +175,12 @@
           top: 0px;
         }
         div {
+          a {
+            cursor: pointer;
+            p {
+              color: $black;
+            }
+          }
           &.wrap {
             cursor: pointer;
             position: relative;
@@ -203,7 +215,6 @@
             }
           }
           &.bio {
-            display: none;
             box-sizing: border-box;
             position: absolute;
             z-index: 1;
@@ -227,8 +238,10 @@
               margin-left: -150px;
             }
             p {
+              color: $black;
               border-top: 1px solid $line;
               padding: $space;
+              @include font-size($small);
             }
           }
         }
@@ -250,7 +263,10 @@
     }
   }
 }
+
+
 /* sponsors */
+
 #sponsors {
   .wrapper {
     margin-top: 0;
@@ -334,16 +350,23 @@
     }
   }
 }
+
+
 /* attendees */
+
 #attendees {
-  .featured,.startups {
+  .featured,
+  .startups {
     padding-bottom: 27px;
   }
   .featured {
     margin-bottom: $space;
   }
 }
+
+
 /* about */
+
 #about {
   .wrapper {
     margin-top: 0;

@@ -93,8 +93,12 @@ ol {
 input {
   -webkit-appearance: none;
 }
+
 input[type='email'] {
-  line-height: 25px;
+  line-height: 20px;
+  @include breakpoint(desktop) {
+    line-height: 25px;
+  }
 }
 
 small {
