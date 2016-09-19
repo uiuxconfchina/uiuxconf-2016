@@ -62,54 +62,10 @@ $(document).ready(function() {
   tab();
   toggleModal();
   sticky();
-  // var scrollTimer = null;
-
-  //   $(window).scroll(function(){
-  // if (scrollTimer) {
-  //       clearTimeout(scrollTimer)
-  //     }
-  //     scrollTimer = setTimeout(function() {
-  //       sticky();
-  //     }, 400);
-  //   })
-
 
   $('.back-to-top').click(function() {
     $("html,body").animate({ scrollTop: $(body).offset().top }, 200);
   })
-
-  // $('.attendees .featured,.attendees .startups').slick({
-  //   lazyLoad: 'progressive',
-  //   dots: true,
-  //   arrows: false,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 5,
-  //   autoplay: true,
-  //   autoplaySpeed: 7000,
-  //   mobileFirst: true,
-  //   pauseOnFocus: false,
-  //   pauseOnHover: true,
-  //   draggable: true,
-  //   swipeToSlide: false,
-  //   adaptiveHeight: true,
-  //   responsive: [{
-  //     breakpoint: 1024,
-  //     settings: {
-  //       slidesToShow: 4,
-  //       slidesToScroll: 4,
-  //       infinite: true,
-  //       dots: true
-  //     }
-  //   }, {
-  //     breakpoint: 600,
-  //     settings: {
-  //       slidesToShow: 2,
-  //       slidesToScroll: 2
-  //     }
-  //   }]
-  // });
-
-
 
   $('.attendees .featured,.attendees .startups').slick({
     dots: true,
@@ -117,20 +73,12 @@ $(document).ready(function() {
     speed: 300,
     slidesToShow: 6,
     slidesToScroll: 6,
-    lazyLoad: 'progressive',
-    //   dots: true,
-    //   arrows: false,
-    //   slidesToShow: 5,
-    //   slidesToScroll: 5,
+    // lazyLoad: 'progressive',
     autoplay: true,
     autoplaySpeed: 6000,
-    //   mobileFirst: true,
     pauseOnFocus: false,
     pauseOnHover: false,
     pauseOnDotsHover: false,
-    //   draggable: true,
-    //   swipeToSlide: false,
-    //   adaptiveHeight: true,
     responsive: [{
         breakpoint: 1280,
         settings: {

@@ -19,6 +19,8 @@ collections:
     output: false
   attendees:
     output: false
+  catering:
+    output: false
 
 
 # Plugins

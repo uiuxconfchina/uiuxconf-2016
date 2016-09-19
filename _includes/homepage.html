@@ -33,6 +33,16 @@
         <a href='/call-for-sponsors/' class='button secondary'>{{ site.data.i18n[page.language].sponsor }}</a>{% endif %}
       </div>
     </div>
+    <div class='col-wrapper col-left volunteer'>
+      <img src='/dist/images/volunteer.png'>
+      <div class='col'>
+        <h2>{{ site.data.i18n[page.language].call_for_volunteers }}</h2>
+        <p>{{ site.data.i18n[page.language].call_for_volunteers_p }}</p>
+        {% if page.language == 'cn' %}
+        <a class='button secondary disabled'>{{ site.data.i18n[page.language].apply_now }}</a>{% else %}
+        <a class='button secondary disabled'>{{ site.data.i18n[page.language].apply_now }}</a>{% endif %}
+      </div>
+    </div>
   </div>
 </section>
 <section id='schedule'>
@@ -487,7 +497,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'silver' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0918'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -517,11 +527,23 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'media' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0906'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0916'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
     </ul>
+    <h3>{{ site.data.i18n[page.language].catering_sponsor }}</h3>
+    <ul class='list'>
+      {% for sponsors in site.sponsors %} {% if sponsors.type == 'catering' %} {% if sponsors.featured %}
+      <li>
+        <a href='{{ sponsors.link }}' target='new'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0916'>
+        </a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
+
+
     <div class='action'>{{ site.data.i18n[page.language].interested }}</div>
   </div>
 </section>
@@ -546,6 +568,7 @@
         </div>
         {% endif %} {% endif %} {% endfor %}
       </div>
+      <p class='more'>{{ site.data.i18n[page.language].more_to_come }}</p>
     </div>
   </div>
 </section>

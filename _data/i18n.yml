@@ -106,6 +106,10 @@ en:
     startups: Startups
     alert: 官方声明：本次活动为付费活动，以官网 <a href='http://2016.uiuxconf.com'>http://2016.uiuxconf.com</a> 售票链接为准，百格网为唯一合作售票平台。会议需要相关票务凭证方可入场参加，请勿随意在第三方平台购票登记，谨防信息透露及财产安全，再次感谢。
     naming_standards: Naming Standards
+    call_for_volunteers: Call for Volunteers
+    call_for_volunteers_p: Are you a big fan of design? Do you want to be a part of us? Do you think you can be up for a big challenge?
+    apply_now: Apply Now
+    catering_sponsor: Catering Sponsor
 
 cn:
     big_title: 2016中国交互与界面设计大会
@@ -208,5 +212,9 @@ cn:
     meet_our_attendees: 参会者
     alert: 官方声明：本次活动为付费活动，以官网 <a href='http://2016.uiuxconf.com'>http://2016.uiuxconf.com</a> 售票链接为准，百格网为唯一合作售票平台。会议需要相关票务凭证方可入场参加，请勿随意在第三方平台购票登记，谨防信息透露及财产安全，再次感谢。
     naming_standards: 命名标准
+    call_for_volunteers: 志愿者征集
+    call_for_volunteers_p: 你是设计爱好者吗？想要成为我们的一员，接受更大的挑战吗？
+    apply_now: 现在申请
+    catering_sponsor: 茶歇赞助
 
 

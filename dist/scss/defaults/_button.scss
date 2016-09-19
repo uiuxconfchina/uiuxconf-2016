@@ -12,13 +12,26 @@
     @include button($secondary);
     border-color: $navy;
     color: $navy;
-    &:hover,&:active,&:focus {
+    &:hover,
+    &:active,
+    &:focus {
       background: transparent;
       color: $navy;
     }
     &:hover {
       color: $fushia;
       border-color: $fushia;
+    }
+  }
+  &.disabled {
+    border-color: $line !important;
+    background: none!important;
+    color: $line !important;
+    cursor: not-allowed;
+    &:hover {
+      background: none;
+      border-color: $line;
+      color: $line;
     }
   }
 }
