@@ -239,7 +239,7 @@ button.close:hover:before{opacity:.8}
 #header #nav .box a.active{color:#2121FB;font-weight:300}
 @media (min-width:1024px){#header #nav{visibility:visible;opacity:1;background:0 0;box-sizing:border-box;left:50%;margin-left:-400px;padding:24px 0;position:absolute;text-align:center;width:800px}
 #header #nav .box{height:auto;display:block}
-#header #nav .box a{font-weight:300;font-size:16px;font-size:1.6rem;display:inline-block;line-height:100%;color:#878787;padding:6px 0;margin:0 2.4%}
+#header #nav .box a{font-weight:300;font-size:16px;font-size:1.6rem;display:inline-block;line-height:100%;color:#878787;padding:6px 0;margin:0 2.3%}
 #header #nav .box a.active{border-bottom:2px solid #2121FB;color:#2121FB;font-weight:500}
 #header #nav button.close{display:none}
 }
