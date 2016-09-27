@@ -331,6 +331,7 @@ form.subscription button{width:144px}
 .tables .table table tbody tr.keynote:hover{background:#f3f3ff}
 .tables .table table tbody tr.keynote h4{font-weight:700;margin-bottom:12px}
 .tables .table table tbody tr samp{font-size:12px;font-size:1.2rem;background:#9e9efd}
+.tables .table table tbody tr samp.en{background:#9e9efd!important}
 .tables .table table tbody tr td.cn samp,.tables .table table tbody tr.cn td samp{font-size:12px;font-size:1.2rem;background:#ff86ce}
 .tables .table table tbody tr:last-child{border-bottom:0}
 .tables .table table tbody tr td{padding:24px;position:relative}
