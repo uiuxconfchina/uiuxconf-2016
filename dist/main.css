@@ -349,8 +349,8 @@ form.subscription button{width:144px}
 }
 .tables .table table tbody tr td.workshop div.row div time i{font-size:12px;font-size:1.2rem;font-style:normal;font-weight:300}
 .tables .table table tbody tr td i.moderator{color:#878787;font-size:14px;font-size:1.4rem}
-.tables .table.day2 .workshop.afternoon div.row{height:50%}
-.tables .table.day2 .workshop.afternoon div.row:first-child{border-bottom:1px solid #e0e4e5;bottom:auto;top:0}
+.tables .table.day2 .workshop.afternoon div.row{height:30%}
+.tables .table.day2 .workshop.afternoon div.row:first-child{border-bottom:1px solid #e0e4e5;bottom:auto;height:70%;top:0}
 #hero{box-sizing:border-box;height:100%}
 #hero .wrapper .masthead{text-align:center}
 #hero .wrapper .masthead time{color:#EC008C;display:block;font-size:27px;font-size:2.7rem;line-height:120%;font-weight:500;font-family:"Museo Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;margin-bottom:24px;text-transform:capitalize;width:100%}
@@ -425,7 +425,7 @@ form.subscription button{width:144px}
 #attendees .featured,#attendees .startups{padding-bottom:27px}
 #attendees .featured{margin-bottom:24px}
 #attendees p.more{margin:48px 0 0;text-align:center}
-#about .wrapper{margin-top:0;padding-top:120px}
+#about .wrapper{margin-top:0;margin-bottom:120px;padding-top:120px}
 #about .wrapper .block{display:inline-block;margin-top:96px;width:100%}
 #about .wrapper .block.past ul li img{margin-bottom:48px;width:48px}
 #about .wrapper .block ul{margin:48px 0 0;padding:0}
