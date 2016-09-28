@@ -425,7 +425,7 @@ form.subscription button{width:144px}
 #attendees .featured,#attendees .startups{padding-bottom:27px}
 #attendees .featured{margin-bottom:24px}
 #attendees p.more{margin:48px 0 0;text-align:center}
-#about .wrapper{margin-top:0;margin-bottom:120px;padding-top:120px}
+#about .wrapper{margin-top:0;padding-bottom:120px;padding-top:120px}
 #about .wrapper .block{display:inline-block;margin-top:96px;width:100%}
 #about .wrapper .block.past ul li img{margin-bottom:48px;width:48px}
 #about .wrapper .block ul{margin:48px 0 0;padding:0}
