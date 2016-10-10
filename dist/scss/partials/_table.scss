@@ -48,6 +48,9 @@
               position: absolute;
               background: lighten($navy, 25%);
               color: #fff;
+              &.en {
+                background: lighten($navy, 25%) !important;
+              }
           }
           &.cn td,
           td.cn {
@@ -146,10 +149,11 @@
     &.day2 {
       .workshop.afternoon {
         div.row {
-          height: 50%;
+          height: 30%;
           &:first-child {
             border-bottom: 1px solid $line;
             bottom: auto;
+            height: 70%;
             top: 0px;
           }
         }

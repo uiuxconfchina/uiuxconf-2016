@@ -16,6 +16,7 @@ en:
     location: Skybanquet, NO.1162, WaiMa Rd. Huangpu District, Shanghai
     interested: Interested in sponsorship opportunities at UI/UX Conf 2016? <br/><a href='/doc/UIUXConfChina2016_Sponsor_Package.pdf' class='button secondary download' target='new'>Sponsor now!</a>
     get_tickets: Get Tickets
+    tickets_sold_out: Tickets Sold Out
     stay_tuned: Stay tuned
     dont_miss_out: "Don't miss out on our news!"
     dont_miss_out_p: "Subscribe to the UI/UX Conf newsletter to be the first to know about our news."
@@ -100,7 +101,7 @@ en:
     press_material: Press Material
     uiuxconf_logo: UI/UX Conf logos
     press_kit: Press Kit
-    meetups: Meetups Pictures
+    meetups_p: Meetups Pictures
     featured_brands: Featured Brands
     meet_our_attendees: Meet our Attendees
     startups: Startups
@@ -111,6 +112,7 @@ en:
     apply_now: Apply Now
     catering_sponsor: Catering Sponsor
     featured_attendees: Featured Attendees
+    tickets_back: Retrieve your E-ticket
 
 cn:
     big_title: 2016中国交互与界面设计大会
@@ -128,6 +130,7 @@ cn:
     shanghai: 上海
     subscribe: 订阅
     get_tickets: 购票参会
+    tickets_sold_out: 门票售罄
     stay_tuned: 敬请期待
     dont_miss_out: 不要错过我们的最新动态！
     dont_miss_out_p: 加入UI/UX Conf的邮件订阅，第一时间获取我们的最新动态。
@@ -207,7 +210,7 @@ cn:
     press_material: 宣传素材
     uiuxconf_logo: 大会logo
     press_kit: 宣传资料包
-    meetups: 线下聚会图片
+    meetups_p: 线下聚会图片
     featured_brands: 参会公司
     startups: 参会创业公司
     meet_our_attendees: 参会者
@@ -218,5 +221,6 @@ cn:
     apply_now: 现在申请
     catering_sponsor: 茶歇赞助
     featured_attendees: 参会者
+    tickets_back: 找回电子票
 
 

@@ -6,7 +6,9 @@
       <span class='location'><img src='/dist/images/location.png' height='10'> <a href='http://j.map.baidu.com/H0Y5B' target='new'>{{ site.data.i18n[page.language].location }}</a> </span>
       <br/>
       <!--       {% include subscription.html %} -->
-      <a class='button primary tickets' href='http://www.bagevent.com/event/156568' target='new'>{{ site.data.i18n[page.language].get_tickets }}</a>
+      <!-- <a class='button primary tickets' href='http://www.bagevent.com/event/156568' target='new'>{{ site.data.i18n[page.language].get_tickets }}</a> -->
+      <a class='button primary tickets disabled'>{{ site.data.i18n[page.language].tickets_sold_out }}</a>
+      <a href='http://www.bagevent.com/event/156568#website_moduleId_14630' target='new' class='button secondary tickets'>{{ site.data.i18n[page.language].tickets_back }}</a>
       <img src='/dist/images/masthead.png' class='img'>
     </div>
   </div>
@@ -126,7 +128,7 @@
                 <em>Continuum</em>
                 <samp>{{ site.data.i18n[page.language].cntip }}</samp>
               </td>
-              <td colspan='1' rowspan='11' class='workshop'>
+              <td colspan='1' rowspan='10' class='workshop'>
                 <div class='row'>
                   <div>
                     <time>13:30 <i>PM</i> - 16:30 <i>PM</i></time>
@@ -134,7 +136,7 @@
                     <h4>Design Sprint - answer critical business questions within just 5 days</h4>
                     <span>Hsun Tang and Annie Chang</span>
                     <em>Google</em>
-                    <samp>{{ site.data.i18n[page.language].entip }}</samp>
+                    <samp class='en'>{{ site.data.i18n[page.language].entip }}</samp>
                   </div>
                 </div>
               </td>
@@ -208,12 +210,12 @@
             <tr>
               <td class='time'>16:20 <i>PM</i></td>
               <td colspan='1'>
-                Lighting Talk 即兴演讲
+                Lightning Talk 即兴演讲
               </td>
             </tr>
             <tr>
               <td class='time'>16:30 <i>PM</i></td>
-              <td colspan='1'>
+              <td colspan='2'>
                 Networking Drinks 社交派对
               </td>
             </tr>
@@ -261,7 +263,7 @@
                   <div>
                     <time>10:00 <i>AM</i> - 11:30 <i>AM</i></time>
                     <br>Workshop
-                    <h4>Learn to be super creative: The science and art of creativity</h4>
+                    <h4>Be super creative: The science and art of creativity</h4>
                     <span>Karlen Chang</span>
                     <em>mixMotion</em>
                     <samp>{{ site.data.i18n[page.language].entip }}</samp>
@@ -305,38 +307,17 @@
             </tr>
             <tr class='keynote cn'>
               <td class='time'>13:30 <i>PM</i></td>
-              <td colspan='2'>
+              <td colspan='1'>
                 <h4>Creating Customer Journeys and Personas for Innovation Projects<br/>CJM和PERSONA在企业创新项目中的应用与变化</h4>
                 <span>肖又歌</span>
                 <em>frog</em>
                 <samp>{{ site.data.i18n[page.language].cntip }}</samp>
               </td>
-            </tr>
-            <tr class='keynote'>
-              <td class='time'>13:50 <i>PM</i></td>
-              <td colspan='2'>
-                <h4>From designing human-machine interaction to designing social interaction.<br/>从设计人机交互到设计社交互动</h4>
-                <span>Ge Jin 金葛</span>
-                <em>S.Lab</em>
-                <samp>{{ site.data.i18n[page.language].entip }}</samp>
-              </td>
-            </tr>
-            <tr>
-              <td class='time'>14:10 <i>PM</i></td>
-              <td colspan='2'>
-                Coffee Break 茶歇
-              </td>
-            </tr>
-            <tr>
-              <td class='time'>14:30 <i>PM</i></td>
-              <td colspan='1'>
-                Lucky Draw 现场抽奖
-              </td>
-              <td colspan='1' rowspan='7' class='workshop cn afternoon'>
+              <td colspan='1' rowspan='10' class='workshop cn afternoon'>
                 <div class='row'>
                   <div>
-                    <time>14:30 <i>PM</i> - 15:30 <i>PM</i></time>
-                    <br> Font design Workshop
+                    <time>13:30 <i>PM</i> - 15:30 <i>PM</i></time>
+                    <br> Chinese Font design Workshop
                     <h4>字／我践行</h4>
                     <span>战国栋</span>
                     <samp>{{ site.data.i18n[page.language].cntip }}</samp>
@@ -346,11 +327,32 @@
                   <div>
                     <time>15:30 <i>PM</i> - 16:30 <i>PM</i></time>
                     <br>Workshop
-                    <h4>Portifolio Review</h4>
+                    <h4>Portfolio Review</h4>
                     <span>Publicis.Sapient</span>
-                    <samp>{{ site.data.i18n[page.language].entip }}</samp>
+                    <samp class='en'>{{ site.data.i18n[page.language].entip }}</samp>
                   </div>
                 </div>
+              </td>
+            </tr>
+            <tr class='keynote'>
+              <td class='time'>13:50 <i>PM</i></td>
+              <td colspan='1'>
+                <h4>From designing human-machine interaction to designing social interaction.<br/>从设计人机交互到设计社交互动</h4>
+                <span>Ge Jin 金葛</span>
+                <em>S.Lab</em>
+                <samp>{{ site.data.i18n[page.language].entip }}</samp>
+              </td>
+            </tr>
+            <tr>
+              <td class='time'>14:10 <i>PM</i></td>
+              <td colspan='1'>
+                Coffee Break 茶歇
+              </td>
+            </tr>
+            <tr>
+              <td class='time'>14:30 <i>PM</i></td>
+              <td colspan='1'>
+                Lucky Draw 现场抽奖
               </td>
             </tr>
             <tr class='keynote'>
@@ -401,12 +403,12 @@
             <tr>
               <td class='time'>16:20 <i>PM</i></td>
               <td colspan='1'>
-                Lighting Talk 即兴演讲
+                Lightning Talk 即兴演讲
               </td>
             </tr>
             <tr>
               <td class='time'>16:30 <i>PM</i></td>
-              <td colspan='1'>
+              <td colspan='2'>
                 Networking Drinks 社交派对
               </td>
             </tr>
@@ -482,12 +484,16 @@
 <section id='sponsors'>
   <div class='wrapper'>
     <h2>{{ site.data.i18n[page.language].sponsors }}</h2>
+    <h3>{{ site.data.i18n[page.language].organizer }}</h3>
+    <ul class='list organizer'>
+      <li><a href='https://wiredcraft.com/' target='new'><img src='/dist/images/past_sponsors/wiredcraft.png'></a></li>
+    </ul>
     <h3>{{ site.data.i18n[page.language].gold_sponsor }}</h3>
     <ul class='list gold'>
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'gold' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=08282'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -497,7 +503,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'silver' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0918'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -507,7 +513,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'bronze' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0906'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -517,7 +523,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'special' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0828'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -527,7 +533,7 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'media' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0916'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
@@ -537,13 +543,11 @@
       {% for sponsors in site.sponsors %} {% if sponsors.type == 'catering' %} {% if sponsors.featured %}
       <li>
         <a href='{{ sponsors.link }}' target='new'>
-          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0916'>
+          <img src='/dist/images/sponsors/{{ sponsors.user }}.png?v=0922'>
         </a>
       </li>
       {% endif %} {% endif %} {% endfor %}
     </ul>
-
-
     <div class='action'>{{ site.data.i18n[page.language].interested }}</div>
   </div>
 </section>
@@ -556,7 +560,7 @@
       <div class='featured'>
         {% for attendees in site.attendees %} {% if attendees.type == 'featured' %} {% if attendees.featured %}
         <div>
-          <img src='/dist/images/attendees/{{ attendees.user }}.png?v=08282'>
+          <img src='/dist/images/attendees/{{ attendees.user }}.png?v=0922'>
         </div>
         {% endif %} {% endif %} {% endfor %}
       </div>
@@ -564,7 +568,7 @@
       <div class='startups'>
         {% for attendees in site.attendees %} {% if attendees.type == 'startups' %} {% if attendees.featured %}
         <div>
-          <img src='/dist/images/attendees/{{ attendees.user }}.png?v=08282'>
+          <img src='/dist/images/attendees/{{ attendees.user }}.png?v=0922'>
         </div>
         {% endif %} {% endif %} {% endfor %}
       </div>
@@ -607,14 +611,14 @@
     </div>
     <div class='block'>
       <h3>{{ site.data.i18n[page.language].who_is_the_organizer }}</h3>
-      <div class='cols'>
-        <div>
+      <div>
+<!--         <div>
           <a href='https://wiredcraft.com/' target='new'><img src='/dist/images/past_sponsors/wiredcraft.png'></a>
-        </div>
+        </div> -->
         <p class='intro'>{{ site.data.i18n[page.language].who_is_the_organizer_p }}</p>
       </div>
     </div>
-    <div class='block logos'>
+<!--     <div class='block logos'>
       <h3>{{ site.data.i18n[page.language].past_sponsors }}</h3>
       <ul>
         <li>
@@ -642,7 +646,7 @@
           <a href='http://www.people-squared.com/' target='new'><img src='/dist/images/past_sponsors/people-squared.png' style='width:50%'></a>
         </li>
       </ul>
-    </div>
+    </div> -->
     <!-- <div class='block logos'>
       <h3>{{ site.data.i18n[page.language].organizer }}</h3>
       <ul>
