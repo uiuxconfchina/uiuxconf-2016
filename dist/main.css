@@ -417,10 +417,11 @@ form.subscription button{width:144px}
 #sponsors .wrapper .list li a{display:table-cell;height:140px;vertical-align:middle;transition:all .1s ease-in-out}
 #sponsors .wrapper .list li a img{display:block;max-width:140px;max-height:80px}
 #sponsors .wrapper .list li a:hover{opacity:.85}
+#sponsors .wrapper .list.organizer li a img{max-width:220px;max-height:110px}
 #sponsors .wrapper .list.specials li a img{max-width:160px;max-height:90px}
 #sponsors .wrapper .list.silver li a img{max-width:220px;max-height:100px}
 #sponsors .wrapper .list.gold li a img{max-width:220px;max-height:110px}
-@media (max-width:640px){#sponsors .wrapper .list.gold li,#sponsors .wrapper .list.silver li{margin:0 10px}
+@media (max-width:640px){#sponsors .wrapper .list.gold li,#sponsors .wrapper .list.organizer li,#sponsors .wrapper .list.silver li{margin:0 10px}
 }
 #attendees .featured,#attendees .startups{padding-bottom:27px}
 #attendees .featured{margin-bottom:24px}
