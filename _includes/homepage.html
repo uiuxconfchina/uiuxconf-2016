@@ -474,6 +474,11 @@
             <h5>{{ speaker.title }}</h5>
           </div>
         </div>
+        <div class='bio mo'>
+          <p>
+            {% if page.language == 'cn' %} {{ speaker.biocn }} {% else %} {{ speaker.bio }} {% endif %}
+          </p>
+        </div>
       </li>
       {% endif %} {% endif %} {% endfor %}
     </ul>

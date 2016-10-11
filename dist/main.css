@@ -407,6 +407,7 @@ form.subscription button{width:144px}
 #about .wrapper .block.logos ul li a img,#sponsors .wrapper .list li a{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out}
 @media (max-width:640px){#speakers .wrapper .list li div.bio{width:300px;margin-left:-150px}
 }
+#speakers .wrapper .list li div.bio.mo{padding-top:260px}
 #speakers .wrapper .list li div.bio p{color:#1F1D1D;border-top:1px solid #e0e4e5;padding:24px;font-size:12px;font-size:1.2rem}
 #speakers .wrapper .list li:hover div.wrap{color:#fff;z-index:2}
 #speakers .wrapper .list li:hover div.bio{pointer-events:auto;opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
