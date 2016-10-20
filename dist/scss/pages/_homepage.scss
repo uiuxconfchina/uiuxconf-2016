@@ -149,6 +149,30 @@
       width: 100%;
       text-align: center;
     }
+    h4 {
+      a.slide {
+        display: inline-block;
+        font-family: $body;
+        font-weight: normal;
+        letter-spacing: 0.3px;
+        line-height: 110%;
+        margin-left: $space/6;
+        border-radius: $radius;
+        @include font-size($small);
+        padding: 1px 2px;
+        color: $navy;
+        border: 1px solid $navy;
+        img {
+          padding: 2px 2px 0 3px;
+          float: right;
+        }
+        // &:hover {
+        //   text-decoration: none;
+        //   color: $fushia;
+        //   border-color: $fushia;
+        // }
+      }
+    }
   }
 }
 
@@ -604,7 +628,6 @@
     }
   }
 }
-
 
 .notification {
   box-sizing: border-box;

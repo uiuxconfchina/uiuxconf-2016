@@ -12,6 +12,11 @@ en:
     schedule: Schedule
     past_events: Past Events
     shanghai: Shanghai
+    slide: Slide
+    gallery: Gallery
+    cp_indoors: UIUXConf16 Indoors
+    cp_outdoors: UIUXConf16 Outdoors
+    cp_workshops: UIUXConf16 Workshops
     subscribe: Subscribe
     location: Skybanquet, NO.1162, WaiMa Rd. Huangpu District, Shanghai
     interested: Interested in sponsorship opportunities at UI/UX Conf 2016? <br/><a href='/doc/UIUXConfChina2016_Sponsor_Package.pdf' class='button secondary download' target='new'>Sponsor now!</a>
@@ -129,6 +134,7 @@ cn:
     past_events: 过往活动
     shanghai: 上海
     subscribe: 订阅
+    gallery: 照片回顾
     get_tickets: 购票参会
     tickets_sold_out: 门票售罄
     stay_tuned: 敬请期待
@@ -150,6 +156,7 @@ cn:
     join: 加入
     inspire: 启迪
     sponsor: 赞助
+    slide: 幻灯片
     interested: 想要成为UI/UX Conf 2016的赞助商？<br/><a href='/doc/UIUXConfChina2016_Sponsor_Package.pdf' class='button secondary download' target='new'>点击了解更多！</a>
     about_the_conf: 关于这次大会
     about_the_conf_p: <p>这次UIUX Conf将于<strong>2016年10月15日及16日</strong>在上海举行，在这两天的大会中你将听到20多场来自资深UIUX设计大牛们的主题演讲(交互设计、视觉设计、用户研究设计、管理服务设计、设计思维等)、参与到多个交互设计体验工作坊、结识其他800多位和你一样有想法的创意人士。 本次活动参与者包括多家国际知名设计公司及国内外新兴企业，“<strong>探索、启迪、连接</strong>” 是本次大会的主题。</p><p>办一场UIUX Conf的想法源于我们每月一度的<a href='http://www.meetup.com/Shanghai-UI-UX-Designers-Meetup/'>UI/UX Designers meetup</a>。2015年10月，我们在上海创客中心（People Squared）组织了第一次UIUX meetup。自此之后，每月第三个星期的周三我们都会在一个创意园区或者设计公司举行UIUX meetup。在UIUX爱好者们的持续关注及积极参与下，UI/UX Designers meetup 成了上海最活跃、最受欢迎的设计社群之一。感谢期间Imagination、frog、Wieden+Kennedy、EF Labs、People Squared 、Central Studio 对UI/UX Designers meetup的场地支持，及来自Frog, Paypal, Google, Starbucks, Imagination, Ming Labs，Wiredcraft 的演讲分享。</p><p>值此UIUX Design活动一周年之际，我们决定在上海举办一场1000人的大派对——UIUX Conf 。我们将邀请UIUX meetup以往的讲师们及更多国际知名UIUX设计师来上海分享他们的知识及组织设计工作坊。另外，既然是一次周年大聚会，我们10月15日晚上的派对绝对值得你的期待。</p>
