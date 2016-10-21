@@ -373,6 +373,17 @@ form.subscription button{width:144px}
 #call-for-proposal .col-wrapper.col-left.volunteer img{width:90%}
 @media (max-width:640px){#call-for-proposal .col-wrapper.col-left.volunteer img{width:70%}
 }
+#gallery ul{margin:0}
+#gallery ul li{float:left;list-style:none;width:49.2%;margin-right:.8%}
+@media (min-width:1024px){#gallery ul li{width:32.75%}
+}
+@media (max-width:640px){#gallery ul li{width:100%}
+}
+#gallery ul li a{opacity:.9}
+#gallery ul li a img{width:100%}
+#gallery ul li a:hover{opacity:1;text-decoration:none}
+#gallery ul li a h4{margin-top:8px}
+#gallery ul li:last-child{margin-right:0}
 #schedule .wrapper{padding-top:120px;border-top:1px solid #e0e4e5;margin-top:0}
 #schedule .wrapper #sticky-wrapper{z-index:1;position:relative}
 #schedule .wrapper #sticky-wrapper .tabnav{background:rgba(255,255,255,.95);border-bottom:1px solid #e0e4e5}
