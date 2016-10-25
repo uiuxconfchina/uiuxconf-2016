@@ -384,6 +384,7 @@ form.subscription button{width:144px}
 #gallery ul li a:hover{opacity:1;text-decoration:none}
 #gallery ul li a h4{margin-top:8px}
 #gallery ul li:last-child{margin-right:0}
+#gallery .action{display:inline-block;width:100%}
 #schedule .wrapper{padding-top:120px;border-top:1px solid #e0e4e5;margin-top:0}
 #schedule .wrapper #sticky-wrapper{z-index:1;position:relative}
 #schedule .wrapper #sticky-wrapper .tabnav{background:rgba(255,255,255,.95);border-bottom:1px solid #e0e4e5}
